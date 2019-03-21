@@ -1,5 +1,4 @@
-"""
-
+/*
 Given a 32-bit signed integer, reverse digits of an integer.
 
 Example 1:
@@ -22,8 +21,7 @@ when the reversed integer overflows.
 
 1.数字反转问题，在java中int和string型的转换没有python简洁。
 2.因此考虑进行除10取整取余，在int层次进行处理。
-"""
-
+*/
 
 class Solution {
     public int reverse(int x) {
@@ -34,10 +32,8 @@ class Solution {
             y = 0;
         }
         while(x != 0 && (y < (Math.pow(2,31)-1)/10 && y > -Math.pow(2,31)/10)){
-            int ten = x / 10;
-            int one = x - ten * 10;
-            x = ten;
-            y = y * 10 + one;
+            y = y * 10 + x % 10;
+            x = x / 10;
         }
         if( x != 0 ){
             return 0;
