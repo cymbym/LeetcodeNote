@@ -6,7 +6,8 @@ Example:
 Input: 1->2->4, 1->3->4
 Output: 1->1->2->3->4->4
 
-
+1.这道题很好地学习了python中链表和类的用法
+2.注意空的时候用None，和初始化时用-1
 """
 
 # Definition for singly-linked list.
@@ -22,7 +23,7 @@ class Solution:
         :type l2: ListNode
         :rtype: ListNode
         """
-        p = ListNode(0)
+        p = ListNode(-1)
         l0 = p
         while l1 != None and l2 != None:
         # while l1 and l2 :
