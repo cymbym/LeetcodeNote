@@ -5,6 +5,10 @@ The solutions are derived from my own thinking and the discussion.
 
 
 ## easy
+|  #  |      Title     |   Solutions   | Time          | Space         | Video  | Difficulty  | Tag                   
+|-----|----------------|---------------|---------------|---------------|--------|-------------|-------------
+|1013|[Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1013.java) | O(n) | O(1) | |Easy|
+
 |#|Java|Python|Tag|
 |:---:|:---:|:---:
 |1|[Two Sum](https://github.com/cymbym/LeetcodeNote/blob/master/java/TwoSum.java)|[Two Sum](https://github.com/cymbym/LeetcodeNote/blob/master/python/TwoSum.py)|HashTable / Dict|
