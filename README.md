@@ -14,3 +14,6 @@ The solutions are derived from my own thinking and the discussion.
 |14|[Longest Common Prefix](https://github.com/cymbym/LeetcodeNote/blob/master/java/LongestCommonPrefix.java)|[Longest Common Prefix](https://github.com/cymbym/LeetcodeNote/blob/master/python/LongestCommonPrefix.py)|String|
 |20|[Valid Parentheses](https://github.com/cymbym/LeetcodeNote/blob/master/java/ValidParentheses.java)|[Valid Parentheses](https://github.com/cymbym/LeetcodeNote/blob/master/python/ValidParentheses.py)|Hash Table, Stack / Dict, Stack|
 |21|[Merge Two Sorted Lists](https://github.com/cymbym/LeetcodeNote/blob/master/java/MergeTwoSortedLists.java)|[Merge Two Sorted Lists](https://github.com/cymbym/LeetcodeNote/blob/master/python/MergeTwoSortedLists.py)|Linked List|
+|26|[Remove Duplicates from Sorted Array](https://github.com/cymbym/LeetcodeNote/blob/master/java/RemoveDuplicatesfromSortedArray.java)|[Remove Duplicates from Sorted Array](https://github.com/cymbym/LeetcodeNote/blob/master/python/RemoveDuplicatesfromSortedArray.py)|Linked List|
+
+
