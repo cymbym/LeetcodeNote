@@ -16,5 +16,6 @@ The solutions are derived from my own thinking and the discussion.
 |21|[Merge Two Sorted Lists](https://github.com/cymbym/LeetcodeNote/blob/master/java/MergeTwoSortedLists.java)|[Merge Two Sorted Lists](https://github.com/cymbym/LeetcodeNote/blob/master/python/MergeTwoSortedLists.py)|Linked List|
 |26|[Remove Duplicates from Sorted Array](https://github.com/cymbym/LeetcodeNote/blob/master/java/RemoveDuplicatesfromSortedArray.java)|[Remove Duplicates from Sorted Array](https://github.com/cymbym/LeetcodeNote/blob/master/python/RemoveDuplicatesfromSortedArray.py)|Array, Two Pointers|
 |27|[Remove Element](https://github.com/cymbym/LeetcodeNote/blob/master/java/RemoveElement.java)|[Remove Element](https://github.com/cymbym/LeetcodeNote/blob/master/python/RemoveElement.py)|Array, Two Pointers|
+|28|[Implement strStr()](https://github.com/cymbym/LeetcodeNote/blob/master/java/ImplementstrStr.java)|[Implement strStr()](https://github.com/cymbym/LeetcodeNote/blob/master/python/ImplementstrStr.py)|String
 
 
