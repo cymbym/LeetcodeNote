@@ -17,5 +17,6 @@ The solutions are derived from my own thinking and the discussion.
 |26|[Remove Duplicates from Sorted Array](https://github.com/cymbym/LeetcodeNote/blob/master/java/RemoveDuplicatesfromSortedArray.java)|[Remove Duplicates from Sorted Array](https://github.com/cymbym/LeetcodeNote/blob/master/python/RemoveDuplicatesfromSortedArray.py)|Array, Two Pointers|
 |27|[Remove Element](https://github.com/cymbym/LeetcodeNote/blob/master/java/RemoveElement.java)|[Remove Element](https://github.com/cymbym/LeetcodeNote/blob/master/python/RemoveElement.py)|Array, Two Pointers|
 |28|[Implement strStr()](https://github.com/cymbym/LeetcodeNote/blob/master/java/ImplementstrStr().java)|[Implement strStr()](https://github.com/cymbym/LeetcodeNote/blob/master/python/ImplementstrStr().py)|String
-
+|35|[Search Insert Position](https://github.com/cymbym/LeetcodeNote/blob/master/java/SearchInsertPosition.java)|[Search Insert Position](https://github.com/cymbym/LeetcodeNote/blob/master/python/SearchInsertPosition.py)|Array
+|38|[Count and Say](https://github.com/cymbym/LeetcodeNote/blob/master/java/CountandSay.java)|[Count and Say](https://github.com/cymbym/LeetcodeNote/blob/master/python/CountandSay.py)|
 
