@@ -20,4 +20,6 @@ The solutions are derived from my own thinking and the discussion.
 |35|[Search Insert Position](https://github.com/cymbym/LeetcodeNote/blob/master/java/SearchInsertPosition.java)|[Search Insert Position](https://github.com/cymbym/LeetcodeNote/blob/master/python/SearchInsertPosition.py)|Array
 |38|[Count and Say](https://github.com/cymbym/LeetcodeNote/blob/master/java/CountandSay.java)|[Count and Say](https://github.com/cymbym/LeetcodeNote/blob/master/python/CountandSay.py)|String,  Iteration / Strig
 |53|[Maximum Subarray](https://github.com/cymbym/LeetcodeNote/blob/master/java/MaximumSubarray.java)|[Maximum Subarray](https://github.com/cymbym/LeetcodeNote/blob/master/python/MaximumSubarray.py)|Array
+|58|[Length of Last Word](https://github.com/cymbym/LeetcodeNote/blob/master/java/LengthofLastWord.java)|[Maximum Subarray](https://github.com/cymbym/LeetcodeNote/blob/master/python/MaximumSubarray.py)|Array
+|53|[Maximum Subarray](https://github.com/cymbym/LeetcodeNote/blob/master/java/MaximumSubarray.java)|[Maximum Subarray](https://github.com/cymbym/LeetcodeNote/blob/master/python/MaximumSubarray.py)|Array
 
