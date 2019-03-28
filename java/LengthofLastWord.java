@@ -10,8 +10,7 @@ Example:
 Input: "Hello World"
 Output: 5
 
-1.对string进行处理
-1.对string进行处理
+1.对String进行处理
 """
 
 class Solution:
