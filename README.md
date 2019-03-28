@@ -20,6 +20,7 @@ The solutions are derived from my own thinking and the discussion.
 |35|[Search Insert Position](https://github.com/cymbym/LeetcodeNote/blob/master/java/SearchInsertPosition.java)|[Search Insert Position](https://github.com/cymbym/LeetcodeNote/blob/master/python/SearchInsertPosition.py)|Array
 |38|[Count and Say](https://github.com/cymbym/LeetcodeNote/blob/master/java/CountandSay.java)|[Count and Say](https://github.com/cymbym/LeetcodeNote/blob/master/python/CountandSay.py)|String,  Iteration / Strig
 |53|[Maximum Subarray](https://github.com/cymbym/LeetcodeNote/blob/master/java/MaximumSubarray.java)|[Maximum Subarray](https://github.com/cymbym/LeetcodeNote/blob/master/python/MaximumSubarray.py)|Array
-|58|[Length of Last Word](https://github.com/cymbym/LeetcodeNote/blob/master/java/LengthofLastWord.java)|[Maximum Subarray](https://github.com/cymbym/LeetcodeNote/blob/master/python/MaximumSubarray.py)|Array
-|53|[Maximum Subarray](https://github.com/cymbym/LeetcodeNote/blob/master/java/MaximumSubarray.java)|[Maximum Subarray](https://github.com/cymbym/LeetcodeNote/blob/master/python/MaximumSubarray.py)|Array
+|58|[Length of Last Word](https://github.com/cymbym/LeetcodeNote/blob/master/java/LengthofLastWord.java)|[Length of Last Word](https://github.com/cymbym/LeetcodeNote/blob/master/python/LengthofLastWord.py)|Array
+|66|[Plus One](https://github.com/cymbym/LeetcodeNote/blob/master/java/PlusOne.java)|[Plus One](https://github.com/cymbym/LeetcodeNote/blob/master/python/PlusOne.py)|Array
+|67|[Add Binary](https://github.com/cymbym/LeetcodeNote/blob/master/java/AddBinary.java)|[Add Binary](https://github.com/cymbym/LeetcodeNote/blob/master/python/AddBinary.py)|Array
 
