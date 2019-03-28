@@ -18,6 +18,7 @@ Output: [4,3,2,2]
 Explanation: The array represents the integer 4321.
 
 1.纯数组运算
+1.纯数组运算
 */
 
 class Solution {
