@@ -1,4 +1,3 @@
-# encoding:utf-8
 """
 Given a string s consists of upper/lower-case alphabets and empty space characters ' ', return the length of last word in the string.
 
@@ -11,7 +10,7 @@ Example:
 Input: "Hello World"
 Output: 5
 
-1.¶ÔString½øĞĞ´¦Àí
+1.çº¯æ•°ç»„è¿ç®—
 """
 
 class Solution:
@@ -45,4 +44,3 @@ class Solution:
                     flag = 1
                     i = i - 1
             i = i + 1
-
