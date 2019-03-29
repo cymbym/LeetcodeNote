@@ -15,13 +15,11 @@ If you have figured out the O(n) solution, try coding another solution using the
 */
 class Solution {
     public int maxSubArray(int[] nums) {
-        int len = nums.length;
         int sum = 0;
         int max = nums[0];
-        for(int i = 0; i < len; i ++){
-            sum += nums[i];
+        for(int i = 0; i < nums.length; i ++){
+            sum = nums[i] + (sum < 0 ? 0 : sum);
             max = sum > max ? sum : max;
-            sum = sum < 0 ? 0 : sum;
         }
         return max;
     }

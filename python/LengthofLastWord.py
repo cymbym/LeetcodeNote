@@ -10,7 +10,7 @@ Example:
 Input: "Hello World"
 Output: 5
 
-1.纯数组运算
+1.对String进行处理
 """
 
 class Solution:

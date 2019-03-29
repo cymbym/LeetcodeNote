@@ -18,9 +18,11 @@ The solutions are derived from my own thinking and the discussion.
 |27|[Remove Element](https://github.com/cymbym/LeetcodeNote/blob/master/java/RemoveElement.java)|[Remove Element](https://github.com/cymbym/LeetcodeNote/blob/master/python/RemoveElement.py)|Array, Two Pointers|
 |28|[Implement strStr()](https://github.com/cymbym/LeetcodeNote/blob/master/java/ImplementstrStr().java)|[Implement strStr()](https://github.com/cymbym/LeetcodeNote/blob/master/python/ImplementstrStr().py)|String
 |35|[Search Insert Position](https://github.com/cymbym/LeetcodeNote/blob/master/java/SearchInsertPosition.java)|[Search Insert Position](https://github.com/cymbym/LeetcodeNote/blob/master/python/SearchInsertPosition.py)|Array
-|38|[Count and Say](https://github.com/cymbym/LeetcodeNote/blob/master/java/CountandSay.java)|[Count and Say](https://github.com/cymbym/LeetcodeNote/blob/master/python/CountandSay.py)|String,  Iteration / Strig
+|38|[Count and Say](https://github.com/cymbym/LeetcodeNote/blob/master/java/CountandSay.java)|[Count and Say](https://github.com/cymbym/LeetcodeNote/blob/master/python/CountandSay.py)|String,  Iteration / String
 |53|[Maximum Subarray](https://github.com/cymbym/LeetcodeNote/blob/master/java/MaximumSubarray.java)|[Maximum Subarray](https://github.com/cymbym/LeetcodeNote/blob/master/python/MaximumSubarray.py)|Array
 |58|[Length of Last Word](https://github.com/cymbym/LeetcodeNote/blob/master/java/LengthofLastWord.java)|[Length of Last Word](https://github.com/cymbym/LeetcodeNote/blob/master/python/LengthofLastWord.py)|String
 |66|[Plus One](https://github.com/cymbym/LeetcodeNote/blob/master/java/PlusOne.java)|[Plus One](https://github.com/cymbym/LeetcodeNote/blob/master/python/PlusOne.py)|Array
 |67|[Add Binary](https://github.com/cymbym/LeetcodeNote/blob/master/java/AddBinary.java)|[Add Binary](https://github.com/cymbym/LeetcodeNote/blob/master/python/AddBinary.py)|String to Int
+|69|[Sqrt(x)](https://github.com/cymbym/LeetcodeNote/blob/master/java/Sqrt(x).java)|[Sqrt(x)](https://github.com/cymbym/LeetcodeNote/blob/master/python/Sqrt(x).py)|Binary Search, Math / Binary Search, Newton's Method, Math
+
 
