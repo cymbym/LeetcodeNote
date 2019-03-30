@@ -26,5 +26,9 @@ The solutions are derived from my own thinking and the discussion.
 |69|[Sqrt(x)](https://github.com/cymbym/LeetcodeNote/blob/master/java/Sqrt(x).java)|[Sqrt(x)](https://github.com/cymbym/LeetcodeNote/blob/master/python/Sqrt(x).py)|Binary Search, Math / Binary Search, Newton's Method, Math
 |70|[Climbing Stairs](https://github.com/cymbym/LeetcodeNote/blob/master/java/ClimbingStairs.java)|[Climbing Stairs](https://github.com/cymbym/LeetcodeNote/blob/master/python/ClimbingStairs.py)|Iterate
 |83|[Remove Duplicates from Sorted List](https://github.com/cymbym/LeetcodeNote/blob/master/java/RemoveDuplicatesfromSortedList.java)|[Remove Duplicates from Sorted List](https://github.com/cymbym/LeetcodeNote/blob/master/python/RemoveDuplicatesfromSortedList.py)|Linked List
+|88|[Merge Sorted Array](https://github.com/cymbym/LeetcodeNote/blob/master/java/MergeSortedArray.java)|[Merge Sorted Array](https://github.com/cymbym/LeetcodeNote/blob/master/python/MergeSortedArray.py)|Array, Two Pointers
+|100|[Same Tree](https://github.com/cymbym/LeetcodeNote/blob/master/java/SameTree.java)|[Same Tree](https://github.com/cymbym/LeetcodeNote/blob/master/python/SameTree.py)|Tree, Recursion, Depth-first Search
+|101|[Symmetric Tree](https://github.com/cymbym/LeetcodeNote/blob/master/java/SymmetricTree.java)|[Symmetric Tree](https://github.com/cymbym/LeetcodeNote/blob/master/python/SymmetricTree.py)|Tree, Recursion, Depth-first Search
+
 
 
