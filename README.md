@@ -29,6 +29,7 @@ The solutions are derived from my own thinking and the discussion.
 |88|[Merge Sorted Array](https://github.com/cymbym/LeetcodeNote/blob/master/java/MergeSortedArray.java)|[Merge Sorted Array](https://github.com/cymbym/LeetcodeNote/blob/master/python/MergeSortedArray.py)|Array, Two Pointers
 |100|[Same Tree](https://github.com/cymbym/LeetcodeNote/blob/master/java/SameTree.java)|[Same Tree](https://github.com/cymbym/LeetcodeNote/blob/master/python/SameTree.py)|Tree, Recursion, Depth-first Search
 |101|[Symmetric Tree](https://github.com/cymbym/LeetcodeNote/blob/master/java/SymmetricTree.java)|[Symmetric Tree](https://github.com/cymbym/LeetcodeNote/blob/master/python/SymmetricTree.py)|Tree, Recursion, Depth-first Search
+|104|[Maximum Depth of Binary Tree](https://github.com/cymbym/LeetcodeNote/blob/master/java/MaximumDepthofBinaryTree.java)|[Maximum Depth of Binary Tree](https://github.com/cymbym/LeetcodeNote/blob/master/python/MaximumDepthofBinaryTree.py)|Tree, Recursion, Depth-first Search
 
 
 
