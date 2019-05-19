@@ -15,7 +15,7 @@ What should we return when needle is an empty string? This is a great question t
 
 For the purpose of this problem, we will return 0 when needle is an empty string. This is consistent to C's strstr() and Java's indexOf().
 
-1.ÓÃstringÔÚÑ­»·ÖĞ±éÀú¡£
+1.ç”¨stringåœ¨å¾ªç¯ä¸­éå†ã€‚
 */
 class Solution {
     public int strStr(String haystack, String needle) {
