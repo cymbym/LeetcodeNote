@@ -15,8 +15,7 @@ What should we return when needle is an empty string? This is a great question t
 
 For the purpose of this problem, we will return 0 when needle is an empty string. This is consistent to C's strstr() and Java's indexOf().
 
-1.在string里用循环进行遍历
-
+1.用string在循环中遍历
 */
 class Solution {
     public int strStr(String haystack, String needle) {
