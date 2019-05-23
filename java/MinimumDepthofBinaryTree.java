@@ -20,11 +20,11 @@ return its minimum depth = 2.
 2.注意是叶子节点到根节点的距离，所以下述应返回5，而不是1。所以应考虑root.left == null || root.right == null这种情况时咋办。
 Given binary tree [1,2,null,3,null,4,null,5],
 
-			1
+            1
 		   /
 		  2
 		 /
-		3
+        3
 	   /
 	  4
 	 /
