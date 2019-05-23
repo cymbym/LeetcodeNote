@@ -21,14 +21,14 @@ return its minimum depth = 2.
 Given binary tree [1,2,null,3,null,4,null,5],
 
             1
-		   /
-		  2
-		 /
+           /
+          2
+         /
         3
-	   /
-	  4
-	 /
-	5
+       /
+      4
+     /
+    5
 	
 return its minimum depth = 5.
 
