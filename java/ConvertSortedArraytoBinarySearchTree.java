@@ -18,6 +18,7 @@ One possible answer is: [0,-3,9,-10,null,5], which represents the following heig
 1.采用深遍，取中点作为根节点，取数组前半部分和后半部分分别用递归来构造根节点的左右子树
 2.注意java数组的截取得构造新数组，例如System.arraycopy()，此外注意截取的范围，上下限都要考虑到【此处就凸显python数组的便捷了
 */
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {

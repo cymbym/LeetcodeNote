@@ -22,6 +22,7 @@ Explanation: There are three ways to climb to the top.
 3. 2 steps + 1 step
 
 1.斐波那契数列，想用递归的，但是超时了orz……，于是老老实实用迭代了
+ps:迭代和递归：递归：调用自身函数，易懂；迭代：A不停的调用B，不易懂。递归中一定有迭代。能用迭代的不用递归,递归调用函数,浪费空间,并且递归太深容易造成堆栈的溢出。
 
 */
 class Solution {

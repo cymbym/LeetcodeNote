@@ -18,6 +18,7 @@ One possible answer is: [0,-3,9,-10,null,5], which represents the following heig
 1.采用深遍，取中点作为根节点，取数组前半部分和后半部分分别用递归来构造根节点的左右子树
 2.不得不感慨python截取数组的便捷orz
  """
+ 
  # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):

@@ -21,7 +21,7 @@ Input: [1,3,5,6], 0
 Output: 0
 
 
-1.在数组中进行比较
+1.鍦ㄦ暟缁勪腑杩涜姣旇緝
 """
 
 class Solution:
