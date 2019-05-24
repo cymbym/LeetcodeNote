@@ -37,7 +37,7 @@ The solutions are derived from my own thinking and the discussion.
 |111|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MinimumDepthofBinaryTree.java)  [Python](https://github.com/cymbym/LeetcodeNote/blob/master/python/MinimumDepthofBinaryTree.py)|Tree, Recursion, Depth-first Search
 |112|[Path Sum](https://leetcode.com/problems/path-sum)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/PathSum.java)  [Python](https://github.com/cymbym/LeetcodeNote/blob/master/python/PathSum.py)|Tree, Recursion, Depth-first Search
 |118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/Pascal'sTriangle.java)|Array
-|119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/Pascal'sTriangleII.java)  [Python]|Array
-
+|119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/Pascal'sTriangleII.java)|Array
+|119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|[Java][python]|Array
 
 
