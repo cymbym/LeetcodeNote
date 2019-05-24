@@ -34,6 +34,7 @@ The solutions are derived from my own thinking and the discussion.
 |108|[Convert Sorted Array to Binary Search Tree](https://github.com/cymbym/LeetcodeNote/blob/master/java/ConvertSortedArraytoBinarySearchTree.java)|[Convert Sorted Array to Binary Search Tree](https://github.com/cymbym/LeetcodeNote/blob/master/python/ConvertSortedArraytoBinarySearchTree.py)|Tree, Recursion, Depth-first Search
 |110|[Balanced Binary Tree](https://github.com/cymbym/LeetcodeNote/blob/master/java/BalancedBinaryTree.java)|[Balanced Binary Tree](https://github.com/cymbym/LeetcodeNote/blob/master/python/BalancedBinaryTree.py)|Tree, Recursion, Depth-first Search
 |111|[Minimum Depth of Binary Tree](https://github.com/cymbym/LeetcodeNote/blob/master/java/MinimumDepthofBinaryTree.java)|[Minimum Depth of Binary Tree](https://github.com/cymbym/LeetcodeNote/blob/master/python/MinimumDepthofBinaryTree.py)|Tree, Recursion, Depth-first Search
+|112|[Path Sum](https://github.com/cymbym/LeetcodeNote/blob/master/java/PathSum.java)|[Path Sum](https://github.com/cymbym/LeetcodeNote/blob/master/python/PathSum.py)|Tree, Recursion, Depth-first Search
 
 
 
