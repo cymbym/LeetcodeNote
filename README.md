@@ -6,6 +6,8 @@ The solutions are derived from my own thinking and the discussion.
 <style>
 table th:first-of-type {
 	width: 300px;
+}second-of-type {
+	width: 100px;
 }
 </style>
 
