@@ -7,7 +7,7 @@ The solutions are derived from my own thinking and the discussion.
 ## easy
 |  #  |      Java     |   Python   | Tag                            
 |-----|----------------|---------------|---------------
-|1|[Two Sum](https://github.com/cymbym/LeetcodeNote/blob/master/java/TwoSum.java)|[Two Sum](https://github.com/cymbym/LeetcodeNote/blob/master/python/TwoSum.py)|Hash Table / Dict|
+|1|[Two Sum](https://github.com/cymbym/LeetcodeNote/blob/master/java/TwoSum.java)|[Two Sum](https://github.com/cymbym/LeetcodeNote/blob/master/java/TwoSum.java)[python](https://github.com/cymbym/LeetcodeNote/blob/master/python/TwoSum.py)|Hash Table / Dict|
 |7|[Reverse Integer](https://github.com/cymbym/LeetcodeNote/blob/master/java/ReverseInteger.java)|[Reverse Integer](https://github.com/cymbym/LeetcodeNote/blob/master/python/ReverseInteger.py)|Math / String to Int
 |9|[Palindrome Number](https://github.com/cymbym/LeetcodeNote/blob/master/java/PalindromeNumber.java)|[Palindrome Number](https://github.com/cymbym/LeetcodeNote/blob/master/python/PalindromeNumber.py)|Math
 |13|[Roman to Integer](https://github.com/cymbym/LeetcodeNote/blob/master/java/RomantoInteger.java)|[Roman to Integer](https://github.com/cymbym/LeetcodeNote/blob/master/python/RomantoInteger.py)|Hash Table / Dict|
@@ -35,7 +35,7 @@ The solutions are derived from my own thinking and the discussion.
 |110|[Balanced Binary Tree](https://github.com/cymbym/LeetcodeNote/blob/master/java/BalancedBinaryTree.java)|[Balanced Binary Tree](https://github.com/cymbym/LeetcodeNote/blob/master/python/BalancedBinaryTree.py)|Tree, Recursion, Depth-first Search
 |111|[Minimum Depth of Binary Tree](https://github.com/cymbym/LeetcodeNote/blob/master/java/MinimumDepthofBinaryTree.java)|[Minimum Depth of Binary Tree](https://github.com/cymbym/LeetcodeNote/blob/master/python/MinimumDepthofBinaryTree.py)|Tree, Recursion, Depth-first Search
 |112|[Path Sum](https://github.com/cymbym/LeetcodeNote/blob/master/java/PathSum.java)|[Path Sum](https://github.com/cymbym/LeetcodeNote/blob/master/python/PathSum.py)|Tree, Recursion, Depth-first Search
-|118|[Pascal's Triangle](https://github.com/cymbym/LeetcodeNote/blob/master/java/Pascal'sTriangle.java)|||Array
+|118|[Pascal's Triangle](https://github.com/cymbym/LeetcodeNote/blob/master/java/Pascal'sTriangle.java)||Array
 
 
 
