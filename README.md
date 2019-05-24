@@ -6,8 +6,8 @@ The solutions are derived from my own thinking and the discussion.
 
 
 ## easy
-|  #  |      Title     |     Solution    | Tag                            
-|-----|----------------|-----------------|---------------
+|  #  |      Title     |     Solution    | Tag           |                 
+|-----|----------------|-----------------|---------------|
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/TwoSum.java)  [Python](https://github.com/cymbym/LeetcodeNote/blob/master/python/TwoSum.py)|Hash Table / Dict|
 |7|[Reverse Integer](https://leetcode.com/problems/reverse-integer)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ReverseInteger.java)  [Python](https://github.com/cymbym/LeetcodeNote/blob/master/python/ReverseInteger.py)|Math / String to Int
 |9|[Palindrome Number](https://leetcode.com/problems/palindrome-number)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/PalindromeNumber.java)  [Python](https://github.com/cymbym/LeetcodeNote/blob/master/python/PalindromeNumber.py)|Math
