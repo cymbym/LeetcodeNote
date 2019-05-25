@@ -39,5 +39,6 @@ The solutions are derived from my own thinking and the discussion.
 |118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/Pascal'sTriangle.java)|Array
 |119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/Pascal'sTriangleII.java)|Array
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/BestTimetoBuyandSellStock.java)|Iterate
+|122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/BestTimetoBuyandSellStockII.java)|Iterate
 
 
