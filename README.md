@@ -42,5 +42,10 @@ The solutions are derived from my own thinking and the discussion.
 |122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/BestTimetoBuyandSellStockII.java)|Iterate
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ValidPalindrome.java)|Recursion, Static, Dict
 |136|[Single Number](https://leetcode.com/problems/single-number/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/SingleNumber.java)|Math, XOR
+|141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/LinkedListCycle.java)|Cycle
+|155|[Min Stack](https://leetcode.com/problems/min-stack/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MinStack.java)|Array
+
+
+
 
 
