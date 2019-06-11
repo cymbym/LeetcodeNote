@@ -38,7 +38,7 @@ for (int i = 0; i < len; i++) {
     print(nums[i]);
 }
 
-1.k作为尾部标记，在nums数组中不断向后移动
+1.k作为整个nums的非element标记，在nums数组中不断向后移动
 
 
 """
