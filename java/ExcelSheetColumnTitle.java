@@ -33,7 +33,7 @@ Output: "ZY"
 class Solution {
     public String convertToTitle(int n) {
         String res = "";
-		while(n != 0){
+        while(n != 0){
 			int remainder = n % 26;
 			if(remainder == 0){
 				res = convertToLetter(remainder + 26) + res;
@@ -45,7 +45,6 @@ class Solution {
 		}
 		return res;
     }
-	
 	public char convertToLetter(int n){
 		return (char)(n + 64);
 	}
