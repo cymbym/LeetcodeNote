@@ -48,6 +48,7 @@ The solutions are derived from my own thinking and the discussion.
 |167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/submissions/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/TwoSumII-Inputarrayissorted.java)|Array, Two Pointers
 |168|[Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ExcelSheetColumnTitle.java)|SysConvert, Math
 |169|[Majority Element](https://leetcode.com/problems/majority-element/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MajorityElement.java)|Array, Hash Table
+|171|[Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ExcelSheetColumnNumber.java)|SysConvert, Math
 
  
 
