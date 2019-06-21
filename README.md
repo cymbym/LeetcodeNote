@@ -50,7 +50,8 @@ The solutions are derived from my own thinking and the discussion.
 |169|[Majority Element](https://leetcode.com/problems/majority-element/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MajorityElement.java)|Array, Hash Table
 |171|[Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ExcelSheetColumnNumber.java)|SysConvert, Math
 |172|[Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FactorialTrailingZeroes.java)|Math
-
+|175|[Combine Two Tables](https://leetcode.com/problems/combine-two-tables/)|[MySQL](https://github.com/cymbym/LeetcodeNote/blob/master/java/CombineTwoTables.java)|Math
+|189|[Rotate Array](https://leetcode.com/problems/rotate-array/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/RotateArray.java)|Array, Math
  
 
 
