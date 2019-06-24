@@ -53,6 +53,8 @@ The solutions are derived from my own thinking and the discussion.
 |189|[Rotate Array](https://leetcode.com/problems/rotate-array/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/RotateArray.java)|Array, Math
 |190|[Reverse Bits](https://leetcode.com/problems/reverse-bits/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ReverseBits.java)|Bit Manipulation, Math
 |191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/Numberof1Bits.java)|Bit Manipulation, Math
+|198|[House Robber](https://leetcode.com/problems/house-robber/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/HouseRobber.java)|Dynamic programming
+|202|[Happy Number](https://leetcode.com/problems/happy-number/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/HappyNumber.java)|Hash Set, Two Pointers, Recursion
 
 
 

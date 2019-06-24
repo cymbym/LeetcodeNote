@@ -31,7 +31,7 @@ If this function is called many times, how would you optimize it?
 
 1.第一个思路是把int转化为bit，随后用逆序取处理。
 2.但需注意的是，计算机本身是将int视为bit的，因此只需要进行移位运算即可。
-	即原数先和1进行与运算，判断最后一位是0还是1，判断结果即为最后一位的值；将最后一位的值加至result；继续对原数进行右移，对result进行左移，比较下一个数。
+  即原数先和1进行与运算，判断最后一位是0还是1，判断结果即为最后一位的值；将最后一位的值加至result；继续对原数进行右移，对result进行左移，比较下一个数。
 
 */
 public class Solution {
