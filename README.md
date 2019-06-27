@@ -60,7 +60,7 @@ The solutions are derived from my own thinking and the discussion.
 |205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/IsomorphicStrings.java)|Hash Table, String, char[]
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ReverseLinkedList.java)|Linked List
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ContainsDuplicate.java)|Hash Set, Array
-|219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ContainsDuplicateII.java)|Hash Map
+|219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ContainsDuplicateII.java)|Hash Table
 
 
 
