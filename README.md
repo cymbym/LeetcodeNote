@@ -55,6 +55,14 @@ The solutions are derived from my own thinking and the discussion.
 |191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/Numberof1Bits.java)|Bit Manipulation, Math
 |198|[House Robber](https://leetcode.com/problems/house-robber/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/HouseRobber.java)|Dynamic programming
 |202|[Happy Number](https://leetcode.com/problems/happy-number/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/HappyNumber.java)|Hash Set, Two Pointers, Recursion
+|203|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/RemoveLinkedListElements.java)|Linked List
+|204|[Count Primes](https://leetcode.com/problems/count-primes/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/CountPrimes.java)|Math
+|205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/IsomorphicStrings.java)|Hash Table, String, char[]
+|206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ReverseLinkedList.java)|Linked List
+|217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ContainsDuplicate.java)|Hash Set, Array
+|219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ContainsDuplicateII.java)|Hash Map
+
+
 
 
 
