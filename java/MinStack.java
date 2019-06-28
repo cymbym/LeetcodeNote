@@ -18,32 +18,32 @@ minStack.getMin();   --> Returns -2.
 
 
 1.第一种方法偷懒利用了ArrayList中的add(),remove(),get(),以及Collections.min()。但是时间和空间都消耗很大。
-2.第二种方法乖乖地用数组来进行操作，提升了时间和空间资源。
+2.第二种方法乖乖地用数组来进行操作，提升了时间和空间资源。注意，在push()和pop()中就开始存储min的值了。
 
 */
 
 class MinStack {
-	private List<Integer> stack = new ArrayList<Integer>(); 
+	private List<Integer> stack; 
     /** initialize your data structure here. */
     public MinStack() {
-        
+        stack = new ArrayList<Integer>(); 
     }
     
     public void push(int x) {
-        this.stack.add(x);
+        stack.add(x);
     }
     
     public void pop() {
-        this.stack.remove(this.stack.size()-1);
+        stack.remove(stack.size()-1);
     }
     
     public int top() {
-        return this.stack.get(this.stack.size()-1);
+        return stack.get(stack.size()-1);
         
     }
     
     public int getMin() {
-        return Collections.min(this.stack);
+        return Collections.min(stack);
     }
 }
 

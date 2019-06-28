@@ -61,6 +61,7 @@ The solutions are derived from my own thinking and the discussion.
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ReverseLinkedList.java)|Linked List
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ContainsDuplicate.java)|Hash Set, Array
 |219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ContainsDuplicateII.java)|Hash Table
+|225|[ImplementStackusingQueues](https://leetcode.com/problems/implement-stack-using-queues/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ImplementStackusingQueues.java)|Array, Queue, Class
 
 
 
