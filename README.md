@@ -62,8 +62,6 @@ The solutions are derived from my own thinking and the discussion.
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ContainsDuplicate.java)|Hash Set, Array
 |219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ContainsDuplicateII.java)|Hash Table
 |225|[ImplementStackusingQueues](https://leetcode.com/problems/implement-stack-using-queues/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ImplementStackusingQueues.java)|Array, Queue, Class
-
-
-
-
-
+|226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/InvertBinaryTree.java)|Tree, Recursion, Depth-first Search
+|231|[Power of Two](https://leetcode.com/problems/power-of-two/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/PowerofTwo.java)|Math, AND
+|232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ImplementQueueusingStacks.java)|Array, Stack, Class

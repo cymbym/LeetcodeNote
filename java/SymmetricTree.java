@@ -17,7 +17,7 @@ But the following [1,2,2,null,3,null,3] is not:
 Note:
 Bonus points if you could solve it both recursively and iteratively.
 
-1.第一反映是想到用递归，但是用去啥递归，显然直接用左右子树是不行的。
+1.第一反映是想到用递归，但是用啥去递归，显然直接用左右子树是不行的。
 2.解题关键：p.left = root.left.left;
             p.right = root.right.right;
             q.left = root.left.right;
