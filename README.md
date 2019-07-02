@@ -70,3 +70,8 @@ The solutions are derived from my own thinking and the discussion.
 |237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/DeleteNodeinaLinkedList.java)|Linked List
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ValidAnagram.java)|Hash Map, Array
 |257|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/BinaryTreePaths.java)|Tree, Recursion, Depth-first Search
+|258|[Add Digits](https://leetcode.com/problems/add-digits/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/AddDigits.java)|Math
+|263|[Ugly Number](https://leetcode.com/problems/ugly-number/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/UglyNumber.java)|Math
+|268|[Missing Number](https://leetcode.com/problems/missing-number/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MissingNumber.java)|Math, XOR
+|278|[First Bad Version](https://leetcode.com/problems/first-bad-version/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FirstBadVersion.java)|Divide and Conquer
+
