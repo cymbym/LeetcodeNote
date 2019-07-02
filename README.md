@@ -69,3 +69,4 @@ The solutions are derived from my own thinking and the discussion.
 |235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/LowestCommonAncestorofaBinarySearchTree.java)|Tree, Breadth-first Search
 |237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/DeleteNodeinaLinkedList.java)|Linked List
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ValidAnagram.java)|Hash Map, Array
+|257|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/BinaryTreePaths.java)|Tree, Recursion, Depth-first Search
