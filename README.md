@@ -68,10 +68,21 @@ The solutions are derived from my own thinking and the discussion.
 |234|[Palindrome Linked List](https://leetcode.com/problems/implement-queue-using-stacks/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/PalindromeLinkedList.java)|Linked List, Two Pointers
 |235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/LowestCommonAncestorofaBinarySearchTree.java)|Tree, Breadth-first Search
 |237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/DeleteNodeinaLinkedList.java)|Linked List
-|242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ValidAnagram.java)|Hash Map, Array
+|242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ValidAnagram.java)|Hash Map, String, Array
 |257|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/BinaryTreePaths.java)|Tree, Recursion, Depth-first Search
 |258|[Add Digits](https://leetcode.com/problems/add-digits/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/AddDigits.java)|Math
 |263|[Ugly Number](https://leetcode.com/problems/ugly-number/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/UglyNumber.java)|Math
 |268|[Missing Number](https://leetcode.com/problems/missing-number/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MissingNumber.java)|Math, XOR
 |278|[First Bad Version](https://leetcode.com/problems/first-bad-version/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FirstBadVersion.java)|Divide and Conquer
+|283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MoveZeroes.java)|Flag
+|290|[Word Pattern](https://leetcode.com/problems/word-pattern/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/WordPattern.java)|HashMap, String, char[]
+|292|[Nim Game](https://leetcode.com/problems/nim-game/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/NimGame.java)|Math
+|303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/RangeSumQuery-Immutable.java)|Array, Class
+|326|[Power of Three](https://leetcode.com/problems/power-of-three/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/PowerofThree.java)|Math
+|342|[Power of Four](https://leetcode.com/problems/power-of-four/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/PowerofFour.java)|Math, AND
+|344|[Reverse String](https://leetcode.com/problems/reverse-string/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ReverseString.java)|Array
+|345|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ReverseVowelsofaString.java)|Two Pointers, Hash Set, Array
+
+
+
 

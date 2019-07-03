@@ -62,14 +62,14 @@ class Solution {
             return false;
         }else{
             int[] map = new int[128];
-			char[] c_s = s.toCharArray();
+		    char[] c_s = s.toCharArray();
             char[] c_t = t.toCharArray();
             for(char c : c_s){
                 map[c]++;
             }
-			for(char c : c_t){
+		    for(char c : c_t){
                 map[c]--;
-				if(map[c] < 0)return false;
+		        if(map[c] < 0)return false;
             }
             return true;
         }
@@ -85,9 +85,9 @@ class Solution {
             for(char c : s.toCharArray()){
                 map[c]++;
             }
-			for(char c : t.toCharArray()){
+		    for(char c : t.toCharArray()){
                 map[c]--;
-				if(map[c] < 0)return false;
+		        if(map[c] < 0)return false;
             }
             return true;
         }
