@@ -25,16 +25,16 @@ You may assume that all operations are valid (for example, no pop or peek operat
   我是在pop()中，用list存储栈里的数，待输出栈底（队头）后，重新存回栈里。全程更新栈底（队头）元素。
 2.答案思路是全程将栈当做队列来使用（栈顶相当于队头）。因此主要在于写push()。
   用一个临时栈s2存储，用s1来作为答案的使用。
-	private int front;
-	public void push(int x) {
-		if (s1.empty())
-			front = x;
-		while (!s1.isEmpty())
-			s2.push(s1.pop());
-		s2.push(x);
-		while (!s2.isEmpty())
-			s1.push(s2.pop());
-	}
+    private int front;
+    public void push(int x) {
+        if (s1.empty())
+            front = x;
+        while (!s1.isEmpty())
+            s2.push(s1.pop());
+        s2.push(x);
+        while (!s2.isEmpty())
+            s1.push(s2.pop());
+    }
 
 
 
