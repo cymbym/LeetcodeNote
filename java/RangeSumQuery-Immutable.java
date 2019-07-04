@@ -17,30 +17,30 @@ There are many calls to sumRange function.
 */
 
 class NumArray {
-	private int[] list;
+    private int[] list;
     public NumArray(int[] nums) {
         list = nums;
     }
     
     public int sumRange(int i, int j) {
-		int sum = 0;
+        int sum = 0;
         for(int k = i; k <= j; k ++){
-			sum += nums[k];
-		}
-		return sum;
+            sum += nums[k];
+        }
+        return sum;
     }
 }
 
 class NumArray {
-	private int[] sum = new int[nums.length+1];
+    private int[] sum = new int[nums.length+1];
     public NumArray(int[] nums) {
         for(int k = 0; k < nums.length; k ++){
-			sum[k+1] = sum[k] + nums[k];
-		}
+            sum[k+1] = sum[k] + nums[k];
+        }
     }
     
     public int sumRange(int i, int j) {
-		return sum[j+1] - sum[i];
+        return sum[j+1] - sum[i];
     }
 }
 

@@ -30,16 +30,16 @@ Then 4 is the first bad version.
 public class Solution extends VersionControl {
     public int firstBadVersion(int n) {
         long head = 0;
-		long mid = 0;
-		while(head < n - 1){
-			mid = (head + n) / 2;
-			if(isBadVersion((int)mid)){
-				n = (int)mid;
-			}else{
-				head = mid;
-			}
-		}
-		return isBadVersion((int)mid) ? (int)mid : (int)mid + 1;
+        long mid = 0;
+        while(head < n - 1){
+            mid = (head + n) / 2;
+            if(isBadVersion((int)mid)){
+                n = (int)mid;
+            }else{
+                head = mid;
+            }
+        }
+        return isBadVersion((int)mid) ? (int)mid : (int)mid + 1;
     }
 }
 

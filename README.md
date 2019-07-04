@@ -73,7 +73,7 @@ The solutions are derived from my own thinking and the discussion.
 |258|[Add Digits](https://leetcode.com/problems/add-digits/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/AddDigits.java)|Math
 |263|[Ugly Number](https://leetcode.com/problems/ugly-number/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/UglyNumber.java)|Math
 |268|[Missing Number](https://leetcode.com/problems/missing-number/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MissingNumber.java)|Math, XOR
-|278|[First Bad Version](https://leetcode.com/problems/first-bad-version/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FirstBadVersion.java)|Divide and Conquer
+|278|[First Bad Version](https://leetcode.com/problems/first-bad-version/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FirstBadVersion.java)|Divide and Conquer, Two Pointers
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MoveZeroes.java)|Flag
 |290|[Word Pattern](https://leetcode.com/problems/word-pattern/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/WordPattern.java)|HashMap, String, char[]
 |292|[Nim Game](https://leetcode.com/problems/nim-game/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/NimGame.java)|Math
@@ -82,6 +82,11 @@ The solutions are derived from my own thinking and the discussion.
 |342|[Power of Four](https://leetcode.com/problems/power-of-four/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/PowerofFour.java)|Math, AND
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ReverseString.java)|Array
 |345|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ReverseVowelsofaString.java)|Two Pointers, Hash Set, Array
+|349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/IntersectionofTwoArrays.java)|Hash Set, Array
+|350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/IntersectionofTwoArraysII.java)|HashMap, ArrayList, Two Pointers
+|367|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ValidPerfectSquare.java)|Divide and Conquer, Two Pointers
+|371|[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/SumofTwoIntegers.java)|Divide and Conquer, Two Pointers
+
 
 
 
