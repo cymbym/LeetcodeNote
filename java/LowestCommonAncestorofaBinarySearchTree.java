@@ -44,25 +44,25 @@ p and q are different and both values will exist in the BST.
  */
 class Solution {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-		if(root == null){
-			return root;
-		}else{
-			int min = (p.val < q.val) ? p.val : q.val;
-			int max = (p.val >= q.val) ? p.val : q.val;
-			LinkedList<TreeNode> node_curr = new LinkedList<TreeNode>();
-			node_curr.add(root);
-			while(!node_curr.isEmpty()){
-				for(int i = 0; i < node_curr.size(); i ++){
-					TreeNode temp = node_curr.remove();
-					if(temp.val >= min && temp.val <= max){
-						return temp;
-					}else{
-						if(temp.left != null)node_curr.add(temp.left);
-						if(temp.right != null)node_curr.add(temp.right);
-					}
-				}
-			}
-			return root;
-		}
+        if(root == null){
+            return root;
+        }else{
+            int min = (p.val < q.val) ? p.val : q.val;
+            int max = (p.val >= q.val) ? p.val : q.val;
+            LinkedList<TreeNode> node_curr = new LinkedList<TreeNode>();
+            node_curr.add(root);
+            while(!node_curr.isEmpty()){
+                for(int i = 0; i < node_curr.size(); i ++){
+                    TreeNode temp = node_curr.remove();
+                    if(temp.val >= min && temp.val <= max){
+                        return temp;
+                    }else{
+                        if(temp.left != null)node_curr.add(temp.left);
+                        if(temp.right != null)node_curr.add(temp.right);
+                    }
+                }
+            }
+            return root;
+        }
     }
 }

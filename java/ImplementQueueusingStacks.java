@@ -43,20 +43,20 @@ You may assume that all operations are valid (for example, no pop or peek operat
 class MyQueue {
 	private Stack<Integer> stack;
 	private int top;
-    /** Initialize your data structure here. */
-    public MyQueue() {
-        stack = new Stack<Integer>();
-    }
+	/** Initialize your data structure here. */
+	public MyQueue() {
+		stack = new Stack<Integer>();
+	}
     
-    /** Push element x to the back of queue. */
-    public void push(int x) {
+	/** Push element x to the back of queue. */
+	public void push(int x) {
 		if(stack.size() == 0)top = x;
-        stack.push(x);
-    }
+		stack.push(x);
+	}
            
-    /** Removes the element from in front of queue and returns that element. */
-    public int pop() {
-        int len = stack.size();
+	/** Removes the element from in front of queue and returns that element. */
+	public int pop() {
+		int len = stack.size();
 		int[] temp = new int[len];
 		for(int i = 0; i < len; i ++){
 			temp[i] = stack.pop();
@@ -66,17 +66,17 @@ class MyQueue {
 		}
 		top = (len >= 2) ? temp[len-2] : top;
 		return temp[len-1];
-    }
+	}
     
-    /** Get the front element. */
-    public int peek() {
+	/** Get the front element. */
+	public int peek() {
 		return top;
-    }
+	}
     
-    /** Returns whether the queue is empty. */
-    public boolean empty() {
-        return stack.empty();
-    }
+	/** Returns whether the queue is empty. */
+	public boolean empty() {
+		return stack.empty();
+	}
 }
 
 

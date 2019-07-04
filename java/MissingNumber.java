@@ -18,11 +18,11 @@ Your algorithm should run in linear runtime complexity. Could you implement it u
 
 class Solution {
     public int missingNumber(int[] nums) {
-		int sum = nums.length;
+        int sum = nums.length;
         for(int i = 0; i < nums.length; i ++){
-			sum = sum ^ nums[i] ^ i;
-			System.out.println(sum);
-		}
-		return sum;
+            sum = sum ^ nums[i] ^ i;
+            System.out.println(sum);
+        }
+        return sum;
     }
 }
