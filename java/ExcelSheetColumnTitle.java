@@ -45,7 +45,7 @@ class Solution {
         }
         return res;
     }
-	public char convertToLetter(int n){
+    public char convertToLetter(int n){
         return (char)(n + 64);
     }
 }

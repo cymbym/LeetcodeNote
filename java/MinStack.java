@@ -23,7 +23,7 @@ minStack.getMin();   --> Returns -2.
 */
 
 class MinStack {
-	private List<Integer> stack; 
+    private List<Integer> stack; 
     /** initialize your data structure here. */
     public MinStack() {
         stack = new ArrayList<Integer>(); 
@@ -49,7 +49,7 @@ class MinStack {
 
 
 class MinStack {
-	private int[] stack = new int[10000]; 
+    private int[] stack = new int[10000]; 
     private int num = 0;
     private int min = 0x7fffffff;
 

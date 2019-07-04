@@ -31,7 +31,7 @@ Explanation: In this case, no transaction is done, i.e. max profit = 0.
 
 class Solution {
     public int maxProfit(int[] prices) {
-		if(prices.length == 0){
+        if(prices.length == 0){
             return 0;
         }else{
             int max = 0;
@@ -39,13 +39,13 @@ class Solution {
             int len = prices.length;
             for(int i = 1; i < len; i ++){
                 if(prices[i-1] > prices[i]){
-					max = max + prices[i-1] - min;
-					min = prices[i];
-				} 
+                    max = max + prices[i-1] - min;
+                    min = prices[i];
+                } 
             }
             if(len >= 2 && prices[len-2] <= prices[len-1]){
-					max = max + prices[len-1] - min;
-				} 
+                max = max + prices[len-1] - min;
+            } 
             return max;
         }
     }
