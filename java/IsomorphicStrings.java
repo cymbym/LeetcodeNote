@@ -31,86 +31,84 @@ You may assume both s and t have the same length.
 
 */
 
-Ans1(HashMap):
+//Ans1(HashMap):
 class Solution {
     public boolean isIsomorphic(String s, String t) {
         if(s.length() != t.length()){
-			return false;
-		}else if(s == ""){
-			return true;
-		}else{
-			HashMap<Character, Integer> map_s = new HashMap();
-			HashMap<Character, Integer> map_t = new HashMap();
-			for(int i = 0; i < s.length(); i ++){
-				char c = s.charAt(i);
-				if(!map_s.containsKey(c)){
-					map_s.put(c, i);
-					c = t.charAt(i);
-					if(!map_t.containsKey(c)){
-						map_t.put(c, i);
-					}else{
-						return false;
-					}					
-				}else{
-					int j = map_s.get(c);
-					if(t.charAt(i) != t.charAt(j))return false;
-				}
-			}
-			return true;
-		}
-		
-    }
-}
-Ans2(String):
-class Solution {
-    public boolean isIsomorphic(String s, String t) {
-        if(s.length() != t.length()){
-			return false;
-		}else if(s == ""){
-			return true;
-		}else{
-			char[] map_s = new char[128];
-			char[] map_t = new char[128];
-			for(int i = 0; i < s.length(); i ++){
-				char c_s = s.charAt(i);
-				char c_t = t.charAt(i);
-				if(map_s[c_s] == 0 && map_t[c_t] == 0){
-					map_s[c_s] = c_t;
-					map_t[c_t] = c_s;		
-				}else if(map_s[c_s] != c_t && map_t[c_t] != c_s){
-					return false;
-				}
-			}
-			return true;
-		}
-		
+            return false;
+        }else if(s == ""){
+            return true;
+        }else{
+            HashMap<Character, Integer> map_s = new HashMap();
+            HashMap<Character, Integer> map_t = new HashMap();
+            for(int i = 0; i < s.length(); i ++){
+                char c = s.charAt(i);
+                if(!map_s.containsKey(c)){
+                    map_s.put(c, i);
+                    c = t.charAt(i);
+                    if(!map_t.containsKey(c)){
+                        map_t.put(c, i);
+                    }else{
+                        return false;
+                    }					
+                }else{
+                    int j = map_s.get(c);
+                    if(t.charAt(i) != t.charAt(j))return false;
+                }
+            }
+            return true;
+        }	
     }
 }
 
-Ans3(char[]):
+//Ans2(String):
 class Solution {
     public boolean isIsomorphic(String s, String t) {
         if(s.length() != t.length()){
-			return false;
-		}else if(s == ""){
-			return true;
-		}else{
-			char[] map_s = new char[128];
-			char[] map_t = new char[128];
-			char[] ss = s.toCharArray();
-			char[] tt = t.toCharArray();
-			for(int i = 0; i < ss.length; i ++){			
-				char c_s = ss[i];
-				char c_t = tt[i];
-				if(map_s[c_s] == 0 && map_t[c_t] == 0){
-					map_s[c_s] = c_t;
-					map_t[c_t] = c_s;		
-				}else if(map_s[c_s] != c_t && map_t[c_t] != c_s){
-					return false;
-				}
-			}
-			return true;
-		}
-		
+            return false;
+        }else if(s == ""){
+            return true;
+        }else{
+            char[] map_s = new char[128];
+            char[] map_t = new char[128];
+            for(int i = 0; i < s.length(); i ++){
+                char c_s = s.charAt(i);
+                char c_t = t.charAt(i);
+                if(map_s[c_s] == 0 && map_t[c_t] == 0){
+                    map_s[c_s] = c_t;
+                    map_t[c_t] = c_s;		
+                }else if(map_s[c_s] != c_t && map_t[c_t] != c_s){
+                    return false;
+                }
+            }
+            return true;
+        }
+    }
+}
+
+//Ans3(char[]):
+class Solution {
+    public boolean isIsomorphic(String s, String t) {
+        if(s.length() != t.length()){
+            return false;
+        }else if(s == ""){
+            return true;
+        }else{
+            char[] map_s = new char[128];
+            char[] map_t = new char[128];
+            char[] ss = s.toCharArray();
+            char[] tt = t.toCharArray();
+            for(int i = 0; i < ss.length; i ++){			
+                char c_s = ss[i];
+                char c_t = tt[i];
+                if(map_s[c_s] == 0 && map_t[c_t] == 0){
+                    map_s[c_s] = c_t;
+                    map_t[c_t] = c_s;		
+                }else if(map_s[c_s] != c_t && map_t[c_t] != c_s){
+                    return false;
+                }
+            }
+            return true;
+        }
     }
 }

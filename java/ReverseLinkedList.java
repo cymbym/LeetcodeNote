@@ -28,15 +28,14 @@ A linked list can be reversed either iteratively or recursively. Could you imple
  */
 class Solution {
     public ListNode reverseList(ListNode head) {
-		ListNode prev = null;
-		ListNode curr = head;
+        ListNode prev = null;
+        ListNode curr = head;
         while(curr != null){
-			ListNode temp = curr.next; //不能等于curr，因为后面curr会变动，temp.next会随着curr.next变动
-			curr.next = prev;
-			prev = curr;
-			curr = temp;
-		}
-		return prev;
+            ListNode temp = curr.next; //不能等于curr，因为后面curr会变动，temp.next会随着curr.next变动
+            curr.next = prev;
+            prev = curr;
+            curr = temp;
+        }
+        return prev;
     }
-}
 }
