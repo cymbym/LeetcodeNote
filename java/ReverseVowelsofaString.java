@@ -22,30 +22,30 @@ The vowels does not include the letter "y".
 class Solution {
     public String reverseVowels(String s) {
         HashSet<Character> set = new HashSet<Character>();
-		set.add('a');set.add('A');
-		set.add('e');set.add('E');
-		set.add('i');set.add('I');
-		set.add('o');set.add('O');
-		set.add('u');set.add('U');
-		char[] c = s.toCharArray();
-		int head = 0;
-		int tail = c.length - 1;
-		while(head < tail){
-			while(head < tail && !set.contains(c[head])){
-				head ++;
-			}
-			while(head < tail && !set.contains(c[tail])){
-				tail --;
-			}
-			if(head < tail){
-				char temp = c[head];
-				c[head] = c[tail];
-				c[tail] = temp;
-				head ++;
-				tail --;
-			}
-		}
-		return String.valueOf(c);
+        set.add('a');set.add('A');
+        set.add('e');set.add('E');
+        set.add('i');set.add('I');
+        set.add('o');set.add('O');
+        set.add('u');set.add('U');
+        char[] c = s.toCharArray();
+        int head = 0;
+        int tail = c.length - 1;
+        while(head < tail){
+            while(head < tail && !set.contains(c[head])){
+                head ++;
+            }
+            while(head < tail && !set.contains(c[tail])){
+                tail --;
+            }
+            if(head < tail){
+                char temp = c[head];
+                c[head] = c[tail];
+                c[tail] = temp;
+                head ++;
+                tail --;
+            }
+        }
+        return String.valueOf(c);
     }
 }
 
