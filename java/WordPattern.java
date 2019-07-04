@@ -31,39 +31,39 @@ You may assume pattern contains only lowercase letters, and str contains lowerca
 class Solution {
     public boolean wordPattern(String pattern, String str) {
         HashMap<Character, String> map = new HashMap<Character, String>();
-		char[] c = pattern.toCharArray();
-		String[] s = divideStr(str, c.length);
+        char[] c = pattern.toCharArray();
+        String[] s = divideStr(str, c.length);
         if(s == null) return false;
-		for(int i = 0; i < c.length; i ++){
-			if(!map.containsKey(c[i])){
-				if(!map.containsValue(s[i])){
-					map.put(c[i], s[i]);
-				}else{
-					return false;
-				}
-			}else{
-				if(!map.get(c[i]).equals(s[i])) return false;
-			}
-		}
-		return true;
+        for(int i = 0; i < c.length; i ++){
+            if(!map.containsKey(c[i])){
+                if(!map.containsValue(s[i])){
+                    map.put(c[i], s[i]);
+                }else{
+                    return false;
+                }
+            }else{
+                if(!map.get(c[i]).equals(s[i])) return false;
+            }
+        }
+        return true;
     }
-	private String[] divideStr(String str, int len){
-		char[] c = str.toCharArray();
-		String[] res = new String[len];
-		int count = 0;
-		int flag = 0;
-		for(int i = 0; i <= c.length; i ++){
+    private String[] divideStr(String str, int len){
+        char[] c = str.toCharArray();
+        String[] res = new String[len];
+        int count = 0;
+        int flag = 0;
+        for(int i = 0; i <= c.length; i ++){
             if(count >= len) return null;
-			if(i == c.length){
-				res[count] = str.substring(flag, i);          
-				flag = i + 1;
-			}else if(Character.isSpace(c[i])){
-				res[count] = str.substring(flag, i);          
-				flag = i + 1;
-				count ++;
-			}
-		}
-		return (count == len-1) ? res : null;
-	}
+            if(i == c.length){
+                res[count] = str.substring(flag, i);          
+                flag = i + 1;
+            }else if(Character.isSpace(c[i])){
+                res[count] = str.substring(flag, i);          
+                flag = i + 1;
+                count ++;
+            }
+        }
+        return (count == len-1) ? res : null;
+    }
 }
 
