@@ -13,71 +13,70 @@ Explanation: There are 4 prime numbers less than 10, they are 2, 3, 5, 7.
 
 */
 
-Ans1(Time Limit Exceeded):
+//Ans1(Time Limit Exceeded):
 class Solution {
     public int countPrimes(int n) {
-		if(n <= 2){
-			return 0;
-		}else{
-			int count = 0;
-			for(int i = 2; i < n ; i ++){
-				if(isPrime(i)) count ++;
-			}
-			return count;
-		}
-        
+        if(n <= 2){
+            return 0;
+        }else{
+            int count = 0;
+            for(int i = 2; i < n ; i ++){
+                if(isPrime(i)) count ++;
+            }
+            return count;
+        }      
     }
-	private boolean isPrime(int n){
-		int count = 0;
-		for(int i = 2; i < n; i ++){
-			if(n % i != 0) count ++;
-		}
-		return count == n-2;
-	}
-}
-
-Ans2:
-class Solution {
-    public int countPrimes(int n) {
-		if(n <= 2){
-			return 0;
-		}else{
-			boolean isPrime[] = new boolean[n];
-			int count = n-2;
-			for(int i = 2; i * i < n ; i ++){
-				if(!isPrime[i]){
-					for(int j = i * i; j < n ; j += i){
-						if(!isPrime[j]){
-							isPrime[j] = true;
-							count--;
-						}
-					}
-				}
-			}
-			return count;
-		}
+    private boolean isPrime(int n){
+        int count = 0;
+        for(int i = 2; i < n; i ++){
+            if(n % i != 0) count ++;
+        }
+        return count == n-2;
     }
 }
 
-Ans3:
+//Ans2:
 class Solution {
     public int countPrimes(int n) {
-		if(n <= 2){
-			return 0;
-		}else{
-			boolean isPrime[] = new boolean[n];
-			int count = n/2;
-			for(int i = 3; i * i < n ; i += 2){
-				if(!isPrime[i]){
-					for(int j = i * i; j < n ; j += 2 * i){
-						if(!isPrime[j]){
-							isPrime[j] = true;
-							count--;
-						}
-					}
-				}
-			}
-			return count;
-		}
+        if(n <= 2){
+            return 0;
+        }else{
+            boolean isPrime[] = new boolean[n];
+            int count = n-2;
+            for(int i = 2; i * i < n ; i ++){
+                if(!isPrime[i]){
+                    for(int j = i * i; j < n ; j += i){
+                        if(!isPrime[j]){
+                            isPrime[j] = true;
+                            count--;
+                        }
+                    }
+                }
+            }
+            return count;
+        }
+    }
+}
+
+//Ans3:
+class Solution {
+    public int countPrimes(int n) {
+        if(n <= 2){
+            return 0;
+        }else{
+            boolean isPrime[] = new boolean[n];
+            int count = n/2;
+            for(int i = 3; i * i < n ; i += 2){
+                if(!isPrime[i]){
+                    for(int j = i * i; j < n ; j += 2 * i){
+                        if(!isPrime[j]){
+                            isPrime[j] = true;
+                            count--;
+                        }
+                    }
+                }
+            }
+            return count;
+        }
     }
 }

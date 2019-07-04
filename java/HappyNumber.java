@@ -21,28 +21,28 @@ Explanation:
 
 class Solution {
     public boolean isHappy(int n) {
-		Set set=new HashSet();
-		while(n != 1){
-			set.add(n);
-			n = toAnswer(n);
-			if(set.contains(n)) return false;
-		}
-		return true;
+        Set set=new HashSet();
+        while(n != 1){
+            set.add(n);
+            n = toAnswer(n);
+            if(set.contains(n)) return false;
+        }
+        return true;
     }
-	private int toAnswer(int n){
-		int sum = 0;
-		while(n != 0){
-			int temp = n % 10;
-			sum += Math.pow(temp, 2);
-			n /= 10;
-		}
-		return sum;
-	}
+    private int toAnswer(int n){
+        int sum = 0;
+        while(n != 0){
+            int temp = n % 10;
+            sum += Math.pow(temp, 2);
+            n /= 10;
+        }
+        return sum;
+    }
 }
 
 class Solution {
     public boolean isHappy(int n) {
-		int slow = n, fast = n;
+        int slow = n, fast = n;
         while (true) {
             slow = toAnswer(slow);
             fast = toAnswer(fast);
@@ -51,8 +51,8 @@ class Solution {
         }
         return slow == 1;
     }
-	private int toAnswer(int n){
-		int res = 0;
+    private int toAnswer(int n){
+        int res = 0;
         while (n > 0) {
             res += (n % 10) * (n % 10);
             n /= 10;
@@ -62,7 +62,7 @@ class Solution {
 }
 
 class Solution {
-     public boolean isHappy(int n) {
+    public boolean isHappy(int n) {
         if (n == 1) return true;
         if (n == 4 || n < 1) return false;
         int res = 0;
