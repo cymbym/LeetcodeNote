@@ -25,13 +25,13 @@ Explanation: Rob house 1 (money = 2), rob house 3 (money = 9) and rob house 5 (m
 */
 class Solution {
     public int rob(int[] nums) {
-		int max_first = 0;
-		int max_second = 0;
+        int max_first = 0;
+        int max_second = 0;
         for(int i = 0; i < nums.length; i++){
-			int temp = max_second;
-			max_second = Math.max(max_second, max_first+nums[i]);
-			max_first = temp;
-		}
-		return max_second;
+            int temp = max_second;
+            max_second = Math.max(max_second, max_first+nums[i]);
+            max_first = temp;
+        }
+        return max_second;
     }
 }

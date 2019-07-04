@@ -23,12 +23,12 @@ Note: Your solution should be in logarithmic time complexity.
 class Solution {
 class Solution {
     public int trailingZeroes(int n) {
-		int count = 0;
-		long temp = 5;
-		while(n/temp != 0){
-			count += n/temp;
-			temp *= 5;
-		}
-		return count;
+        int count = 0;
+        long temp = 5;
+        while(n/temp != 0){
+            count += n/temp;
+            temp *= 5;
+        }
+    return count;
     }
 }

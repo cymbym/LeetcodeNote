@@ -33,19 +33,19 @@ class Solution {
         if(k > nums.length) k %= nums.length;
         if(k != 0){
             reverse(nums, 0, nums.length - k - 1);
-			reverse(nums, nums.length - k, nums.length - 1); 
-			reverse(nums, 0, nums.length - 1); 
+            reverse(nums, nums.length - k, nums.length - 1); 
+            reverse(nums, 0, nums.length - 1); 
         }
-	}
+    }
 	
-	private void reverse(int[] nums, int head, int tail) {
-		int temp;
-		while(head <= tail){
-			temp = nums[head];
-			nums[head] = nums[tail];
-			nums[tail] = temp;
-			head ++;
-			tail --;
-		}
-	}
+    private void reverse(int[] nums, int head, int tail) {
+        int temp;
+        while(head <= tail){
+            temp = nums[head];
+            nums[head] = nums[tail];
+            nums[tail] = temp;
+            head ++;
+            tail --;
+        }
+    }
 }
