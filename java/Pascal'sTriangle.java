@@ -21,11 +21,11 @@ Output:
 
 class Solution {
     public List<List<Integer>> generate(int numRows) {
-		List<List<Integer>> large = new ArrayList<List<Integer>>();
-		if(numRows == 0){
-			return large;
-		}else{
-			for(int i = 0; i < numRows; i ++){
+        List<List<Integer>> large = new ArrayList<List<Integer>>();
+        if(numRows == 0){
+            return large;
+        }else{
+            for(int i = 0; i < numRows; i ++){
                 List<Integer> small = new ArrayList<Integer>();
                 small.add(1);
                 for(int j = 1; j < i; j++){
@@ -33,8 +33,8 @@ class Solution {
                 }
                 if(i != 0) small.add(1);
                 large.add(small);
-			}
-			return large;
-		}
+            }
+            return large;
+        }
     }
 }

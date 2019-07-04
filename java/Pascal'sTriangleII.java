@@ -20,7 +20,7 @@ Could you optimize your algorithm to use only O(k) extra space?
 
 class Solution {
     public List<Integer> getRow(int rowIndex) {
-		List<Integer> res = new ArrayList<Integer>();
+        List<Integer> res = new ArrayList<Integer>();
         long temp = 1;
         res.add(1);
         for(int i = 1; i < rowIndex; i ++ ){
