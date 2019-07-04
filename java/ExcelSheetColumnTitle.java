@@ -34,18 +34,18 @@ class Solution {
     public String convertToTitle(int n) {
         String res = "";
         while(n != 0){
-			int remainder = n % 26;
-			if(remainder == 0){
-				res = convertToLetter(remainder + 26) + res;
-				n = n / 26 - 1;
-			}else{
-				res = convertToLetter(remainder) + res;
-				n /= 26;
-			}
-		}
-		return res;
+            int remainder = n % 26;
+            if(remainder == 0){
+                res = convertToLetter(remainder + 26) + res;
+                n = n / 26 - 1;
+            }else{
+                res = convertToLetter(remainder) + res;
+                n /= 26;
+            }
+        }
+        return res;
     }
 	public char convertToLetter(int n){
-		return (char)(n + 64);
-	}
+        return (char)(n + 64);
+    }
 }

@@ -31,13 +31,13 @@ Output: 701
 class Solution {
     public int titleToNumber(String s) {
         int len = s.length();
-		int sum = 0;
-		for(int i = 0; i < len; i ++){
-			sum += Math.pow(26, i)*convert(s.charAt(len-i-1));
-		}
-		return sum;
+        int sum = 0;
+        for(int i = 0; i < len; i ++){
+            sum += Math.pow(26, i)*convert(s.charAt(len-i-1));
+        }
+        return sum;
     }
-	public int convert(char c){
-		return Integer.valueOf(c) - 64;
-	}
+    public int convert(char c){
+        return Integer.valueOf(c) - 64;
+    }
 }

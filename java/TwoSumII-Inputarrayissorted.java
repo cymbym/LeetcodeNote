@@ -20,19 +20,19 @@ Explanation: The sum of 2 and 7 is 9. Therefore index1 = 1, index2 = 2.
 
 class Solution {
     public int[] twoSum(int[] numbers, int target) {
-		int head = 1;
-		int tail = numbers.length;
-		int sum;
-		while(head < tail){
-			sum = numbers[head - 1] + numbers[tail - 1];
-			if(sum == target){
-				return new int[]{head, tail};
-			}else if(sum < target){
-				head ++;
-			}else{
-				tail --;
-			}
-		}
-		return null;
+        int head = 1;
+        int tail = numbers.length;
+        int sum;
+        while(head < tail){
+            sum = numbers[head - 1] + numbers[tail - 1];
+            if(sum == target){
+                return new int[]{head, tail};
+            }else if(sum < target){
+                head ++;
+            }else{
+                tail --;
+            }
+        }
+        return null;
     }
 }
