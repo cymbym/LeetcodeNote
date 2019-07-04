@@ -22,25 +22,25 @@ Output: false
 
 class Solution {
     public boolean isPerfectSquare(int num) {
-		long head = 0;
-		long tail = num;
-		while(tail > head){
+        long head = 0;
+        long tail = num;
+        while(tail > head){
             if(tail - head == 1){
                 if(head * head == num || tail * tail == num){
                     return true;
                 }else
                     return false;
             }
-			long mid = head + (tail - head) / 2;
-			long temp = mid * mid;
-			if(temp == num){
-				return true;
-			}else if(temp > num){
-				tail = mid;
-			}else{
-				head = mid;
-			}
-		}
-		return head * head == num;
+            long mid = head + (tail - head) / 2;
+            long temp = mid * mid;
+            if(temp == num){
+                return true;
+            }else if(temp > num){
+                tail = mid;
+            }else{
+                head = mid;
+            }
+        }
+        return head * head == num;
     }
 }

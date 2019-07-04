@@ -33,7 +33,7 @@ class Solution {
             if(set_1.contains(i)) set_2.add(i);
         }
         int[] res = new int[set_2.size()];
-		int count = 0;
+        int count = 0;
         for(int i : set_2){
             res[count ++] = i;
         }
@@ -61,7 +61,6 @@ class Solution {
         }        
         int size = 0;
         int [] res = new int[max - min + 1];   //注意这个数组的声明
-        
         for(int num: nums2)
         {
             if(num>=min && num<= max && check[num -min])
@@ -70,15 +69,12 @@ class Solution {
                 check[num-min] = false;
             }
         }        
-        int [] result = new int[size];   //注意这个数组的声明
-        
+        int [] result = new int[size];   //注意这个数组的声明  
         for(int i = 0; i < size; i++)
         {
             result[i] = res[i];
-        }
-        
-        return result;
-    
+        }       
+        return result; 
     }
 }
 
