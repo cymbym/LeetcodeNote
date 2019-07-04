@@ -28,23 +28,22 @@ Input is within the 32-bit signed integer range: [−2^31,  2^31 − 1].
 */
 
 class Solution {
-    public boolean isUgly(int num) {
-        
-		if(num <= 0){
-			return false;
-		}else if(num == 1){
-			return true;
-		}else{
-			while(num % 2 == 0){
-				num /= 2;
-			}
-			while(num % 3 == 0){
-				num /= 3;
-			}
-			while(num % 5 == 0){
-				num /= 5;
-			}
-			return num == 1;
-		}
+    public boolean isUgly(int num) {   
+        if(num <= 0){
+            return false;
+        }else if(num == 1){
+            return true;
+        }else{
+            while(num % 2 == 0){
+                num /= 2;
+            }
+            while(num % 3 == 0){
+                num /= 3;
+            }
+            while(num % 5 == 0){
+                num /= 5;
+            }
+            return num == 1;
+        }
     }
 }

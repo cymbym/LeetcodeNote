@@ -33,36 +33,36 @@ Explanation: All root-to-leaf paths are: 1->2->5, 1->3
  */
 class Solution {
     public List<String> binaryTreePaths(TreeNode root) {
-		List<String> list = new ArrayList<String>();
+        List<String> list = new ArrayList<String>();
         if(root == null){
-			return list;
-		}else if(root.left == null && root.right == null){
-			list.add("" + root.val);
-			return list;
-		}else if(root.left == null){
-			list = binaryTreePaths(root.right);
-			for(int i = 0; i < list.size(); i ++){
-				list.set(i, root.val + "->" + list.get(i));
-			}
-			return list;
-		}else if(root.right == null){
-			list = binaryTreePaths(root.left);
-			for(int i = 0; i < list.size(); i ++){
-				list.set(i, root.val + "->" + list.get(i));
-			}
-			return list;
-		}else{
-			list = binaryTreePaths(root.left);
-			for(int i = 0; i < list.size(); i ++){
-				list.set(i, root.val + "->" + list.get(i));
-			}
-			List<String> list_right = new ArrayList<String>();
-			list_right = binaryTreePaths(root.right);
-			for(int i = 0; i < list_right.size(); i ++){
-				list.add(root.val + "->" + list_right.get(i));
-			}
-			return list;
-		}
+            return list;
+        }else if(root.left == null && root.right == null){
+            list.add("" + root.val);
+            return list;
+        }else if(root.left == null){
+            list = binaryTreePaths(root.right);
+            for(int i = 0; i < list.size(); i ++){
+                list.set(i, root.val + "->" + list.get(i));
+            }
+            return list;
+        }else if(root.right == null){
+            list = binaryTreePaths(root.left);
+            for(int i = 0; i < list.size(); i ++){
+                list.set(i, root.val + "->" + list.get(i));
+            }
+            return list;
+        }else{
+            list = binaryTreePaths(root.left);
+            for(int i = 0; i < list.size(); i ++){
+                list.set(i, root.val + "->" + list.get(i));
+            }
+            List<String> list_right = new ArrayList<String>();
+            list_right = binaryTreePaths(root.right);
+            for(int i = 0; i < list_right.size(); i ++){
+                list.add(root.val + "->" + list_right.get(i));
+            }
+            return list;
+        }
     }
 }
 
