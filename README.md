@@ -85,7 +85,7 @@ The solutions are derived from my own thinking and the discussion.
 |349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/IntersectionofTwoArrays.java)|Hash Set, Array
 |350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/IntersectionofTwoArraysII.java)|HashMap, ArrayList, Two Pointers
 |367|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ValidPerfectSquare.java)|Divide and Conquer, Two Pointers
-|371|[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/SumofTwoIntegers.java)|Divide and Conquer, Two Pointers
+|371|[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/SumofTwoIntegers.java)|Bit Manipulation, Math, XOR, AND
 
 
 
