@@ -13,35 +13,31 @@ Output: 5
 1.对String进行处理
 */
 
-class Solution:
-    def lengthOfLastWord(self, s):
-        """
-        :type s: str
-        :rtype: int
-
-        """
-        t = 0
-        length = len(s)
-        if s == "" :
-            return 0
-        if s[-1] == " ":
-            flag = 0
-        else:
-            flag = 1
-        i = 1
-        while i <= length:
-            if flag == 1:
-                if s[length-i] != " ":
-                    t = t + 1
-                    if i == length:
-                        return t
-                else:
-                    return t
-            else:
-                if i == length and s[length - i] == " ":
-                    return 0
-                elif s[length-i] != " ":
-                    flag = 1
-                    i = i - 1
-            i = i + 1
+class Solution {
+    public int lengthOfLastWord(String s) {
+        int len = s.length();
+        if(s.equals("") || s.equals(" ")){
+            return 0;
+        }else if(len == 1){
+            return 1;
+        }else{
+            int i = 0;
+            int t = 0;
+            int flag = 0;
+            while(i < len ){
+                if(s.substring(len - i - 1, len - i).equals(" ")){
+                    if(flag == 0){
+                        i ++ ;
+                    }else if(flag == 1){
+                        return t;
+                    }
+                }else{
+                    i ++ ;
+                    t ++ ;
+                    flag = 1;
+                }
+            }return flag > 0 ? t : 0;
+        }
+    }
+}
 
