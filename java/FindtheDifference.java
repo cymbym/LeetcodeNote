@@ -25,17 +25,17 @@ Explanation:
 class Solution {
     public char findTheDifference(String s, String t) {
         char[] c_s = s.toCharArray();
-		char[] c_t = t.toCharArray();
-		int[] map = new int[28];
-		for(int i = 0; i < c_s.length; i ++){
-			map[c_s[i] - 97] ++;
-			map[c_t[i] - 97] --;
-		}
-		map[c_t[c_t.length - 1] - 97] --;
-		for(char i = 'a'; i <= 'z'; i ++){
-			if(map[i - 97] == -1)return i;
-		}
-		return ' ';
+        char[] c_t = t.toCharArray();
+        int[] map = new int[28];
+        for(int i = 0; i < c_s.length; i ++){
+            map[c_s[i] - 97] ++;
+            map[c_t[i] - 97] --;
+        }
+        map[c_t[c_t.length - 1] - 97] --;
+        for(char i = 'a'; i <= 'z'; i ++){
+            if(map[i - 97] == -1)return i;
+        }
+        return ' ';
     }
 }
 

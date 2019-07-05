@@ -43,7 +43,7 @@ class Solution {
         else{
             long i = 1;
             long num = 0;
-			long l = (int)n;
+            long l = (int)n;
             long temp = 9 * (int)Math.pow(10, i - 1) * i;  //步骤2，长度序列中每层的个数
             while(l > temp){
                 l -= temp;				//步骤3，减去长度序列中每层的个数直至匹配到正确区间

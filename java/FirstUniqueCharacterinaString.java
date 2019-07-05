@@ -18,13 +18,13 @@ Note: You may assume the string contain only lowercase letters.
 class Solution {
     public int firstUniqChar(String s) {
         char[] c = s.toCharArray();
-		int[] temp = new int[28];
-		for(char i : c){
-			temp[i - 97] ++;
-		}
-		for(int i = 0; i < c.length; i ++){
-			if(temp[c[i] - 97] == 1)return i;
-		}
-		return -1;
+        int[] temp = new int[28];
+        for(char i : c){
+            temp[i - 97] ++;
+        }
+        for(int i = 0; i < c.length; i ++){
+            if(temp[c[i] - 97] == 1)return i;
+        }
+        return -1;
     }
 }

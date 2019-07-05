@@ -17,19 +17,19 @@ canConstruct("aa", "aab") -> true
 
 class Solution {
     public boolean canConstruct(String ransomNote, String magazine) {
-		char[] r = ransomNote.toCharArray();
-		char[] m = magazine.toCharArray();
+        char[] r = ransomNote.toCharArray();
+        char[] m = magazine.toCharArray();
         int count = r.length;
-		int[] map = new int[28];
-		for(char c : r){
-			map[c - 97] ++;
-		}
-		for(char c : m){
-			if(map[c - 97] > 0){
-				map[c - 97] --;
-				count --;
-			}
-		}
-		return count == 0;
+        int[] map = new int[28];
+        for(char c : r){
+            map[c - 97] ++;
+        }
+        for(char c : m){
+            if(map[c - 97] > 0){
+                map[c - 97] --;
+                count --;
+            }
+        }
+        return count == 0;
     }
 }

@@ -24,10 +24,10 @@ Output: 1
 class Solution {
     public int getSum(int a, int b) {
         while(b != 0){
-			int c = a ^ b;		//计算加和（无进位）
-			b = (a & b) << 1;	//计算进位：当进位为0时，得到的和才是完整的；否则，还需继续将加和与进位叠加。
-			a = c;
-		}
-		return a;
+            int c = a ^ b;		//计算加和（无进位）
+            b = (a & b) << 1;	//计算进位：当进位为0时，得到的和才是完整的；否则，还需继续将加和与进位叠加。
+            a = c;
+        }
+        return a;
     }
 }
