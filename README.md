@@ -86,6 +86,12 @@ The solutions are derived from my own thinking and the discussion.
 |350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/IntersectionofTwoArraysII.java)|HashMap, ArrayList, Two Pointers
 |367|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ValidPerfectSquare.java)|Divide and Conquer, Two Pointers
 |371|[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/SumofTwoIntegers.java)|Bit Manipulation, Math, XOR, AND
+|374|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/GuessNumberHigherorLower.java)|Divide and Conquer, Two Pointers
+|383|[Ransom Note](https://leetcode.com/problems/ransom-note/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/RansomNote.java)|String, char[]
+|387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FirstUniqueCharacterinaString.java)|String, char[]
+|389|[Find the Difference](https://leetcode.com/problems/find-the-difference/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FindtheDifference.java)|String, char[], XOR
+|400|[Nth Digit](https://leetcode.com/problems/nth-digit/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/NthDigit.java)|Math
+
 
 
 
