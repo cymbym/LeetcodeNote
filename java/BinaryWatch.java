@@ -27,32 +27,32 @@ The minute must be consist of two digits and may contain a leading zero, for exa
 class Solution {
     public List<String> readBinaryWatch(int num) {
         List<String> res = new ArrayList<String>();
-		int[] hour = {1, 2, 4, 8};
-		int[] miniute = {1, 2, 4, 8, 16, 32};
-		for(int i = 0; i <= num; i ++){
-			List<Integer> hours = new ArrayList<Integer>();
+        int[] hour = {1, 2, 4, 8};
+        int[] miniute = {1, 2, 4, 8, 16, 32};
+        for(int i = 0; i <= num; i ++){
+            List<Integer> hours = new ArrayList<Integer>();
             List<Integer> minutes = new ArrayList<Integer>();
-			combination(hour, i, 0, hours, 0);
-			combination(miniute, num - i, 0, minutes, 0);
-			for(int h : hours){
-				if(h <= 11){
-					for(int m : minutes){
-						if(m <= 59) res.add(h + (m < 10 ? ":0" : ":") + m);
-					}
-				}
-			}
-		}
-		return res;
+            combination(hour, i, 0, hours, 0);
+            combination(miniute, num - i, 0, minutes, 0);
+            for(int h : hours){
+                if(h <= 11){
+                    for(int m : minutes){
+                        if(m <= 59) res.add(h + (m < 10 ? ":0" : ":") + m);
+                    }
+                }
+            }
+        }
+        return res;
     }
 	
 	private void combination(int[] nums, int cnt, int pos, List<Integer> res, int sum){
-		if(cnt == 0){
-			res.add(sum);
+        if(cnt == 0){
+            res.add(sum);
             return;
-		}
+        }
         for(int i = pos; i < nums.length; i ++){
-		    combination(nums, cnt - 1, i + 1, res, sum + nums[i]);
-		}
+            combination(nums, cnt - 1, i + 1, res, sum + nums[i]);
+        }
 	}
 }
 
