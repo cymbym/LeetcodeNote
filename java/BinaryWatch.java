@@ -45,7 +45,7 @@ class Solution {
         return res;
     }
 	
-	private void combination(int[] nums, int cnt, int pos, List<Integer> res, int sum){
+    private void combination(int[] nums, int cnt, int pos, List<Integer> res, int sum){
         if(cnt == 0){
             res.add(sum);
             return;
@@ -53,7 +53,7 @@ class Solution {
         for(int i = pos; i < nums.length; i ++){
             combination(nums, cnt - 1, i + 1, res, sum + nums[i]);
         }
-	}
+    }
 }
 
 class Solution {
