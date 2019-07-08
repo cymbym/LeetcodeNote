@@ -92,6 +92,8 @@ The solutions are derived from my own thinking and the discussion.
 |389|[Find the Difference](https://leetcode.com/problems/find-the-difference/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FindtheDifference.java)|String, char[], XOR
 |400|[Nth Digit](https://leetcode.com/problems/nth-digit/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/NthDigit.java)|Math
 |401|[Binary Watch](https://leetcode.com/problems/binary-watch/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/BinaryWatch.java)|Recursion, Bit Manipulation
+|404|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/SumofLeftLeaves.java)|Tree, Recursion, Depth-first Search
+|405|[Convert a Number to Hexadecimal](https://leetcode.com/problems/sum-of-left-leaves/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ConvertaNumbertoHexadecimal.java)|SysConvert, Math, Bit Manipulation
 
 
 
