@@ -25,6 +25,10 @@ Output:
 1.若为负数，先转化为其补码形式：negToBit(long num)。如-2。2的原码为00……0010，共32位，故-2的补码为11……1110，转化方式为：其相反数的原码的右起第一个1为界，左边取反，右边及该数皆保留。
   由于需要用到10进制转2进制，用辗转相除法，并在循环中同时逐位转化为补码。由于是从最小位开始存储的，故一开始每一位都乘2^31，后续则不断除以2。由于2^31会溢出，故采用long。
 2.得到所有数后开始转化为16进制sysConvert(long num)。
+
+
+ps:同样是最优解的一种解法：使用位运算。位运算视为2进制，即转化为2进制转16进制的问题。想想大计基中2进制转16进制，是对每四位二进制进行匹配。
+   于是用到循环移位+与0b1111的运算。每次取出4位，进行匹配。
 */
 
 class Solution {
@@ -65,5 +69,22 @@ class Solution {
             }
         }
         return res;
+    }
+}
+
+
+
+class Solution {
+    public String toHex(int num) {
+        StringBuilder sb = new StringBuilder(8);
+        for (int i = 7; i >= 0; i--) {
+            int n = (num >>> i*4) & 0b1111; // logic shift. don't add leading 1 for negative.
+            if (n == 0 && sb.length() == 0) continue; //ignore leading 0.
+            if (n < 10) sb.append((char)(n + '0'));
+            else {
+                sb.append((char)(n-10+'a'));
+            }
+        }
+        return sb.length() == 0 ? "0" : sb.toString();
     }
 }
