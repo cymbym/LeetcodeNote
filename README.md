@@ -96,7 +96,8 @@ The solutions are derived from my own thinking and the discussion.
 |405|[Convert a Number to Hexadecimal](https://leetcode.com/problems/sum-of-left-leaves/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ConvertaNumbertoHexadecimal.java)|SysConvert, Math, Bit Manipulation
 |409|[Longest Palindrome](https://leetcode.com/problems/longest-palindrome)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/LongestPalindrome.java)|String, char[]
 |412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FizzBuzz.java)|Int to String
-|414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ThirdMaximumNumber.java)|Int to String
+|414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ThirdMaximumNumber.java)|Integer to Long
+|415|[Add Strings](https://leetcode.com/problems/add-strings/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/AddStrings.java)|Integer to Long
 
 
 

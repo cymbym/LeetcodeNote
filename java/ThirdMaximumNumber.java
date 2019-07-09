@@ -21,50 +21,29 @@ Output: 1
 
 Explanation: Note that the third maximum here means the third maximum distinct number.
 Both numbers with value 2 are both considered as second maximum.
+
+1.用三个数分别存储最大，第二大，第三大的数。一开始用了int的极小值来作为这三个数的下界。
+2.但是一旦nums中存在这个极小值，第三大究竟是这个极小值，还是没有出现第三大，其仍为初始值，将无法判断。因此采用long，扩大下界。
+
 */
 
 class Solution {
     public int thirdMax(int[] nums) {
-        int first = Integer.MIN_VALUE;
-        int second = Integer.MIN_VALUE;
-        int third = Integer.MIN_VALUE;
-        int flag = 0;
+        long first = Long.MIN_VALUE;
+        long second = Long.MIN_VALUE;
+        long third = Long.MIN_VALUE;
         for(int i : nums){
-            if(first == i && i != Integer.MIN_VALUE) continue;
-            else if(first == Integer.MIN_VALUE){
+            if(i > first){
+                third = second;
+                second = first;
                 first = i;
-                flag ++;
-            }
-            else if(first < i){
-				third = second;
-				second = first;
-                first = i;
-				flag ++;
-            }else{
-                if(second == i && i != Integer.MIN_VALUE) continue;
-                else if(second == Integer.MIN_VALUE){
-                    second = i;
-                    flag ++;
-                } 
-                else if(second < i){
-					third = second;
-                    second = i;
-					flag ++;
-                }else{
-                    System.out.println(flag);
-                    if(third == i && i != Integer.MIN_VALUE )continue;
-                    else if(third == Integer.MIN_VALUE){
-                        third = i;
-                    } 
-                    else if(third < i){
-                        third = i;
-                    }
-                    flag ++;
-                }
+            }else if(i > second && i < first){
+                third = second;
+                second = i;
+            }else if(i > third && i < second){
+                third = i;
             }
         }
-		return flag >= 3 ? third : first;
+        return third == Long.MIN_VALUE ? (int)first : (int)third;
     }
 }
-
-[-2147483648,-2147483648,-2147483648,-2147483648,1,1,1]
