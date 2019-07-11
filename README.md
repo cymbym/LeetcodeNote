@@ -98,6 +98,7 @@ The solutions are derived from my own thinking and the discussion.
 |412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FizzBuzz.java)|Int to String
 |414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ThirdMaximumNumber.java)|Integer to Long
 |415|[Add Strings](https://leetcode.com/problems/add-strings/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/AddStrings.java)|Integer to Long
+|429|[N-ary Tree Level Order Traversal](https://leetcode.com/problems/add-strings/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/N-aryTreeLevelOrderTraversal.java)|Tree, Breadth-first Search, Recursion, Depth-first Search
 
 
 

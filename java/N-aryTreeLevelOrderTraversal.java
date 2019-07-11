@@ -1,65 +1,92 @@
 /*
-Given two binary strings, return their sum (also a binary string).
+Given an n-ary tree, return the level order traversal of its nodes' values. (ie, from left to right, level by level).
 
-The input strings are both non-empty and contains only characters 1 or 0.
+For example, given a 3-ary tree:
 
-Example 1:
+ 
 
-Input: a = "11", b = "1"
-Output: "100"
-Example 2:
 
-Input: a = "1010", b = "1011"
-Output: "10101"
-Accepted
 
-1.Sting和int的转换
+ 
+
+We should return its level order traversal:
+
+[
+     [1],
+     [3,2,4],
+     [5,6]
+]
+ 
+
+Note:
+
+The depth of the tree is at most 1000.
+The total number of nodes is at most 5000.
+
+
+1.我采用广遍，1，3，2，4，5，6。3ms。
+2.最优解是深遍中的前序遍历：1，3，5，6，2，4。1ms。
+https://www.cnblogs.com/llguanli/p/7363657.html
 */
 
-class Solution {
-    public String addBinary(String a, String b) {
-        int len_a = a.length();
-        int len_b = b.length();
-        int x = 0;
-        int y = 0;
-        String s = "";
-        if(len_a >= len_b){
-            int i = 0;
-            int flag = 0;
-            while(i < len_a){
-                if(i < len_b){
-                    x = Integer.parseInt(a.substring(len_a - i - 1, len_a - i)); 
-                    y = Integer.parseInt(b.substring(len_b - i - 1, len_b - i)); 
-                    s = (x + y + flag) % 2 + s;
-                    flag = x + y + flag > 1 ? 1 : 0;
-                    i ++ ;
-                }else{
-                    x = Integer.parseInt(a.substring(len_a - i - 1, len_a - i)); 
-                    s = (x + flag) % 2 + s;
-                    flag = x + flag > 1 ? 1 : 0;
-                    i ++ ;
-                }
-            }
-            s = flag > 0 ? 1 + s : s;
-        }else{
-            int i = 0;
-            int flag = 0;
-            while(i < len_b){
-                if(i < len_a){
-                    x = Integer.parseInt(a.substring(len_a - i - 1, len_a - i)); 
-                    y = Integer.parseInt(b.substring(len_b - i - 1, len_b - i)); 
-                    s = (x + y + flag) % 2 + s;
-                    flag = x + y + flag > 1 ? 1 : 0;
-                    i ++ ;
-                }else{
-                    y = Integer.parseInt(b.substring(len_b - i - 1, len_b - i)); 
-                    s = (y + flag) % 2 + s;
-                    flag = y + flag > 1 ? 1 : 0;
-                    i ++ ;
-                }
-            }
-            s = flag > 0 ? 1 + s : s;
-        }
-        return s;
+/*
+// Definition for a Node.
+class Node {
+    public int val;
+    public List<Node> children;
+
+    public Node() {}
+
+    public Node(int _val,List<Node> _children) {
+        val = _val;
+        children = _children;
     }
+};
+*/
+class Solution {
+    public List<List<Integer>> levelOrder(Node root) {
+        List<List<Integer>> large = new ArrayList();
+        if(root == null){
+            return large;
+        }else{
+            LinkedList<Node> node_now = new LinkedList<Node>(); //当前层的结点
+            node_now.add(root);
+            while(!node_now.isEmpty()){
+                List<Integer> small = new ArrayList();
+                int size = node_now.size();
+                for(int i = 0; i < size; i ++){
+                    Node temp = node_now.remove(); //看来数组也是先入先出
+                    small.add(temp);
+                    if(temp.children != null){
+                        for(Node n : temp.children){
+                            node_now.add(n);
+                        }
+                    }
+                }
+                large.add(small);
+            }
+            return large;
+        }
+    }
+}
+
+
+
+class Solution {
+    public List<List<Integer>> levelOrder(Node root) {
+        List<List<Integer>> res = new ArrayList<>();
+        if (root == null) return res;
+        layer(res, 0, root);
+        return res;
+    }
+    
+    public void layer(List<List<Integer>> large, int height, Node root) {
+        if (height == large.size()) {					//该层，如1，3，5，6
+            List<Integer> small = new ArrayList<>();
+            small.add(root.val);
+            large.add(small);
+        } else large.get(height).add(root.val);			//子结点后返回的层，如2，4
+        for (Node r : root.children) 
+            layer(large, height + 1, r);
+    } 
 }
