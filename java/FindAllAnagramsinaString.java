@@ -39,20 +39,20 @@ The substring with start index = 2 is "ab", which is an anagram of "ab".
 class Solution {
     public List<Integer> findAnagrams(String s, String p) {
         char[] c_p = p.toCharArray();
-		char[] c_s = s.toCharArray();
-		int[] map = new int[28];
-		List<Integer> res = new ArrayList<Integer>();
-		for (char i : c_p) map[i - 'a'] ++;
+        char[] c_s = s.toCharArray();
+        int[] map = new int[28];
+        List<Integer> res = new ArrayList<Integer>();
+        for (char i : c_p) map[i - 'a'] ++;
         int start = 0;
         int end = 0;
         boolean isP = false;
-		int[] temp = map.clone();
-		while (end < c_s.length) {
-			if (temp[c_s[end] - 'a'] > 0) {
-				temp[c_s[end] - 'a'] --;
+        int[] temp = map.clone();
+        while (end < c_s.length) {
+            if (temp[c_s[end] - 'a'] > 0) {
+                temp[c_s[end] - 'a'] --;
                 if (!isP) start = end;
                 isP = true;
-				if (end - start == c_p.length - 1) {
+                if (end - start == c_p.length - 1) {
                     isP = false;
                     res.add(start);
                     while (end + 1 < c_s.length && c_s[end + 1] == c_s[start]){
@@ -66,19 +66,18 @@ class Solution {
                         start ++;
                         while (end > start && map[c_s[end] - 'a'] > 0) end --;
                         start = end;
-                    }
-                    
+                    }                  
                 }
                 else end ++;
-			}else{
+            }else{
                 isP = false;
-				temp = map.clone();
+                temp = map.clone();
                 while (end > start && temp[c_s[end] - 'a'] > 0) end --;
                 end ++;
                 start = end;
-			}
-		}
-		return res;
+            }
+        }
+        return res;
     }
 }
 
