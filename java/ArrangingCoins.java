@@ -1,3 +1,71 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 You have a total of n coins that you want to form in a staircase shape, where every k-th row must have exactly k coins.
 
@@ -41,18 +109,16 @@ Because the 4th row is incomplete, we return 3.
 class Solution {
     public int arrangeCoins(int n) {
         long head = 0;
-		long tail = n;
+        long tail = n;
         while (tail - head > 1) {
-			long midFir = head + (tail - head) / 2;
-			long midSec = midFir + 1;
-			long midThi = midSec + 1;
+            long midFir = head + (tail - head) / 2;
+            long midSec = midFir + 1;
+            long midThi = midSec + 1;
             if (midFir * midSec / 2 <= n) {
-				if (midSec * midThi / 2 > n) return (int)midFir;
-				else {
-					head = midFir;
-				}
-			}else tail = midFir;
-			if(tail - head == 1) return (int)midFir;
+                if (midSec * midThi / 2 > n) return (int)midFir;
+                else head = midFir;
+            }else tail = midFir;
+            if(tail - head == 1) return (int)midFir;
         }
         return (int)tail;
     }
