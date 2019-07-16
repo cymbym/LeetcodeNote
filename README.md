@@ -102,13 +102,11 @@ The solutions are derived from my own thinking and the discussion.
 |437|[Path Sum III](https://leetcode.com/problems/path-sum-iii/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/PathSumIII.java)|Tree, Recursion, Depth-first Search, HashMap
 |438|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FindAllAnagramsinaString.java)|Two Pointers, Dynamic programming
 |441|[Arranging Coins](https://leetcode.com/problems/arranging-coins/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ArrangingCoins.java)|Divide and Conquer, Two Pointers
-<<<<<<< HEAD
-|441|[Minimum Moves to Equal Array Elements](https://leetcode.com/problems/arranging-coins/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MinimumMovestoEqualArrayElements.java)|Math, Array
-=======
 |443|[String Compression](https://leetcode.com/problems/string-compression/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/StringCompression.java)|Two Pointers, char[]
 |447|[Number of Boomerangs](https://leetcode.com/problems/number-of-boomerangs/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/NumberofBoomerangs.java)|HashMap, Permutation
 |448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FindAllNumbersDisappearedinanArray.java)|Dynamic programming, Array
->>>>>>> c5a71cf56105cdb75fc9136838a765a846b7cd40
+|453|[Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MinimumMovestoEqualArrayElements.java)|Math, Array
+
 
 
 
