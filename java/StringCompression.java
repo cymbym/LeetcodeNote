@@ -63,21 +63,21 @@ class Solution {
         if (chars.length < 2) return chars.length;
         else {
             int cnt = 1;
-			int read = 1;
-			int write = 0;
+            int read = 1;
+            int write = 0;
             while (read < chars.length) {
                 if (chars[read] == chars[read - 1]) cnt ++;
                 else {
-					chars[write ++] = chars[read - 1];
+                    chars[write ++] = chars[read - 1];
                     if (cnt > 1) {
-						for (char c : ("" + cnt).toCharArray()) chars[write ++] = c;
-						cnt = 1;
-					}
+                        for (char c : ("" + cnt).toCharArray()) chars[write ++] = c;
+                        cnt = 1;
+                    }
                 }
-				read ++;
+                read ++;
             }
             chars[write ++] = chars[chars.length - 1];
-			if (cnt > 1) for (char c : ("" + cnt).toCharArray()) chars[write ++] = c;
+            if (cnt > 1) for (char c : ("" + cnt).toCharArray()) chars[write ++] = c;
             return write;
         }
     }

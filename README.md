@@ -91,7 +91,7 @@ The solutions are derived from my own thinking and the discussion.
 |387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FirstUniqueCharacterinaString.java)|String, char[]
 |389|[Find the Difference](https://leetcode.com/problems/find-the-difference/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FindtheDifference.java)|String, char[], XOR
 |400|[Nth Digit](https://leetcode.com/problems/nth-digit/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/NthDigit.java)|Math
-|401|[Binary Watch](https://leetcode.com/problems/binary-watch/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/BinaryWatch.java)|Recursion, Bit Manipulation
+|401|[Binary Watch](https://leetcode.com/problems/binary-watch/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/BinaryWatch.java)|Recursion, Bit Manipulation, Combination
 |404|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/SumofLeftLeaves.java)|Tree, Recursion, Depth-first Search
 |405|[Convert a Number to Hexadecimal](https://leetcode.com/problems/sum-of-left-leaves/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ConvertaNumbertoHexadecimal.java)|SysConvert, Math, Bit Manipulation
 |409|[Longest Palindrome](https://leetcode.com/problems/longest-palindrome)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/LongestPalindrome.java)|String, char[]
@@ -103,6 +103,8 @@ The solutions are derived from my own thinking and the discussion.
 |438|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FindAllAnagramsinaString.java)|Two Pointers, Dynamic programming
 |441|[Arranging Coins](https://leetcode.com/problems/arranging-coins/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ArrangingCoins.java)|Divide and Conquer, Two Pointers
 |443|[String Compression](https://leetcode.com/problems/string-compression/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/StringCompression.java)|Two Pointers, char[]
+|447|[Number of Boomerangs](https://leetcode.com/problems/number-of-boomerangs/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/NumberofBoomerangs.java)|HashMap, Permutation
+|448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FindAllNumbersDisappearedinanArray.java)|Dynamic programming, Array
 
 
 
