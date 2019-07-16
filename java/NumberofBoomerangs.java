@@ -22,29 +22,29 @@ The two boomerangs are [[1,0],[0,0],[2,0]] and [[1,0],[2,0],[0,0]]
 
 class Solution {
     public int numberOfBoomerangs(int[][] points) {
-		int res = 0;
-		for (int i = 0; i < points.length; i ++) {
-			HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
-			for (int j = 0; j < points.length; j ++) {
-				if (i != j) {
-					int temp = distance(points[i], points[j]);
-					map.put(temp, map.getOrDefault(temp, 0) + 1);
-				}
-			}
-			for(int value : map.values())
-			{
-				if (value >= 2) res += value * (value - 1);
-			}
-		}
+        int res = 0;
+        for (int i = 0; i < points.length; i ++) {
+            HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
+            for (int j = 0; j < points.length; j ++) {
+                if (i != j) {
+                    int temp = distance(points[i], points[j]);
+                    map.put(temp, map.getOrDefault(temp, 0) + 1);
+                }
+            }
+            for(int value : map.values())
+            {
+                if (value >= 2) res += value * (value - 1);
+            }
+        }
         return res;
     }
-	private int distance(int[] x, int[] y) {
-		int res = 0;
-		for (int i = 0; i < x.length; i ++) {
-			res += Math.pow(x[i] - y[i], 2);
-		}
-		return res;
-	}
+    private int distance(int[] x, int[] y) {
+        int res = 0;
+        for (int i = 0; i < x.length; i ++) {
+            res += Math.pow(x[i] - y[i], 2);
+        }
+        return res;
+    }
 }
 
 class Solution {
