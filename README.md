@@ -102,6 +102,7 @@ The solutions are derived from my own thinking and the discussion.
 |437|[Path Sum III](https://leetcode.com/problems/path-sum-iii/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/PathSumIII.java)|Tree, Recursion, Depth-first Search, HashMap
 |438|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FindAllAnagramsinaString.java)|Two Pointers, Dynamic programming
 |441|[Arranging Coins](https://leetcode.com/problems/arranging-coins/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ArrangingCoins.java)|Divide and Conquer, Two Pointers
+|441|[Minimum Moves to Equal Array Elements](https://leetcode.com/problems/arranging-coins/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MinimumMovestoEqualArrayElements.java)|Math, Array
 
 
 
