@@ -17,10 +17,10 @@ Only three moves are needed (remember each move increments two elements):
 1.列举几个例子，找出规律。
 
 每个数都会经历递增的过程，最后达到一个ceiling。
-假设数组元素最终为X，数组最小元素min需要经过X-min次增长，最大元素max需要经过X-max次增长，(X-min)-(X-max)=max-min就是max不变  其余元素包括min 增长的次数，
-经过这些次增长后，min元素和max元素大小相等，且它俩成为当前数组最小元素。   
-然后我们再让这俩最小元素增长到当前数组最大元素（初始数组次最大元素max2）的大小，增长的次数是max2-min，最终使得这三个元素相等。
-每一次增长都让数组中大小相同的元素增加一个，从1到2到3~~~n，故总共增加了max-min,max2(初始数组次最大元素)-min,max3-min，，，总和就是sum-min*n
+这期间小的元素需要不断向大的元素补齐。因此最小的元素一定是永远在增加的。统计其增加次数即为所求move次数。
+【补齐法】：数组最小元素min需要比最大元素max多增加max-min次（max不动的次数），方能补齐二者差距；
+            而最小元素min需要比第二大元素max2多增加max2-min次（max2不动的次数），方能补齐二者差距；
+            每一次增长都让数组中最小的元素向比其大的元素补齐，从2,3,……,n，故总共增加了max-min,max2-min,max3-min,……,max(n-1)-min次，总和就是sum-min*n。
 
 
 */
