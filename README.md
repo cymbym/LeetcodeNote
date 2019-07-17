@@ -106,6 +106,8 @@ The solutions are derived from my own thinking and the discussion.
 |447|[Number of Boomerangs](https://leetcode.com/problems/number-of-boomerangs/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/NumberofBoomerangs.java)|HashMap, Permutation
 |448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FindAllNumbersDisappearedinanArray.java)|Dynamic programming, Array
 |453|[Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MinimumMovestoEqualArrayElements.java)|Math, Array
+|455|[Assign Cookies](https://leetcode.com/problems/assign-cookies/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/AssignCookies.java)|Array
+|459|[Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/RepeatedSubstringPattern.java)|Array
 
 
 
