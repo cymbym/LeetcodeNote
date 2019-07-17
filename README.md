@@ -108,6 +108,8 @@ The solutions are derived from my own thinking and the discussion.
 |453|[Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MinimumMovestoEqualArrayElements.java)|Math, Array
 |455|[Assign Cookies](https://leetcode.com/problems/assign-cookies/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/AssignCookies.java)|Array
 |459|[Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/RepeatedSubstringPattern.java)|Array
+|461|[Hamming Distance](https://leetcode.com/problems/hamming-distance/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/HammingDistance.java)|XOR, SysConvert
+|463|[Island Perimeter](https://leetcode.com/problems/island-perimeter/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/IslandPerimeter.java)|Multidimensional Array
 
 
 
