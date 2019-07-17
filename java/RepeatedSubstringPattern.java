@@ -25,58 +25,58 @@ Explanation: It's the substring "abc" four times. (And the substring "abcabc" tw
 
 class Solution {
     public boolean repeatedSubstringPattern(String s) {
-		int len = s.length();
-		boolean res = true;
+        int len = s.length();
+        boolean res = true;
         for (int subStrLen = 1; subStrLen <= len / 2; subStrLen ++) {
-			if (len % subStrLen == 0) {
-				int step = subStrLen;
-				while (step < len) {
-					if (!isRepeated(s, step, subStrLen)) {
-						res = false;
-						break;
-					}
-					else {
-						step += subStrLen;
-						res = true;
-					}
-				}
-				if (res) return res;
-			}
-		}
-		return false;
+            if (len % subStrLen == 0) {
+                int step = subStrLen;
+                while (step < len) {
+                    if (!isRepeated(s, step, subStrLen)) {
+                        res = false;
+                        break;
+                    }
+                    else {
+                        step += subStrLen;
+                        res = true;
+                    }
+                }
+                if (res) return res;
+            }
+        }
+        return false;
     }
-	private boolean isRepeated(String s, int step, int subStrLen) {
-		if (!s.substring(0,  subStrLen).equals(s.substring(step, step + subStrLen))) return false;
-		return true;
-	}
+    private boolean isRepeated(String s, int step, int subStrLen) {
+        if (!s.substring(0,  subStrLen).equals(s.substring(step, step + subStrLen))) return false;
+        return true;
+    }
 }
 
 class Solution {
     public boolean repeatedSubstringPattern(String s) {
-		int len = s.length();
-		boolean res = true;
+        int len = s.length();
+        boolean res = true;
         for (int subStrLen = len / 2; subStrLen >= 1; subStrLen --) {
-			if (len % subStrLen == 0) {
-				int step = subStrLen;
-				while (step < len) {
-					if (!isRepeated(s, step, subStrLen)) {
-						res = false;
-						break;
-					}
-					else {
-						step += subStrLen;
-						res = true;
-					}
-				}
-				if (res) return res;
-			}
-		}
-		return false;
+            if (len % subStrLen == 0) {
+                int step = subStrLen;
+                while (step < len) {
+                    if (!isRepeated(s, step, subStrLen)) {
+                        res = false;
+                        break;
+                    }
+                    else {
+                        step += subStrLen;
+                        res = true;
+                    }
+                }
+                if (res) return res;
+            }
+        }
+        return false;
     }
-	private boolean isRepeated(String s, int step, int subStrLen) {
-		if (!s.substring(0,  subStrLen).equals(s.substring(step, step + subStrLen))) return false;
-		return true;
-	}
+    private boolean isRepeated(String s, int step, int subStrLen) {
+        if (!s.substring(0,  subStrLen).equals(s.substring(step, step + subStrLen))) return false;
+        return true;
+    }
 }
 
 class Solution {
