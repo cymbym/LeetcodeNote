@@ -97,7 +97,7 @@ The solutions are derived from my own thinking and the discussion.
 |409|[Longest Palindrome](https://leetcode.com/problems/longest-palindrome)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/LongestPalindrome.java)|String, char[]
 |412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FizzBuzz.java)|Int to String
 |414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ThirdMaximumNumber.java)|Integer to Long
-|415|[Add Strings](https://leetcode.com/problems/add-strings/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/AddStrings.java)|Integer to Long
+|415|[Add Strings](https://leetcode.com/problems/add-strings/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/AddStrings.java)|String, char[]
 |429|[N-ary Tree Level Order Traversal](https://leetcode.com/problems/add-strings/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/N-aryTreeLevelOrderTraversal.java)|Tree, Breadth-first Search, Recursion, Depth-first Search
 |437|[Path Sum III](https://leetcode.com/problems/path-sum-iii/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/PathSumIII.java)|Tree, Recursion, Depth-first Search, HashMap
 |438|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FindAllAnagramsinaString.java)|Two Pointers, Dynamic programming
@@ -112,6 +112,7 @@ The solutions are derived from my own thinking and the discussion.
 |463|[Island Perimeter](https://leetcode.com/problems/island-perimeter/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/IslandPerimeter.java)|Multidimensional Array
 |475|[Heaters](https://leetcode.com/problems/heaters/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/Heaters.java)|Two Pointers, Array, Dynamic programming
 |476|[Number Complement](https://leetcode.com/problems/number-complement/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/NumberComplement.java)|SysConvert, Bit Manipulation
+|476|[License Key Formatting](https://leetcode.com/problems/license-key-formatting/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/LicenseKeyFormatting.java)|SysConvert, Bit Manipulation
 
 
 
