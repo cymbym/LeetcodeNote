@@ -19,7 +19,9 @@ Input: "abcabcabcabc"
 Output: True
 Explanation: It's the substring "abc" four times. (And the substring "abcabc" twice.)
 
-
+1.我的解法：将周期长度设为subStrLen，然后逐个累加，判断是否和第一个s.substring(0, subStrLen)相等。若是则输出；若不等则继续递增/递减subStrLen的长度
+  若是则输出；若不等则继续递增/递减subStrLen的长度。其中，subStrLen初始化为len / 2，比初始化为1快。
+2.最优解：找出最末尾的数last，随后在s前半段不断找出最后一个last及其对应的索引val，判断val是否为len的余数，及各段是否等于s.substring(0, val)。
 
 */
 
@@ -46,7 +48,7 @@ class Solution {
         return false;
     }
     private boolean isRepeated(String s, int step, int subStrLen) {
-        if (!s.substring(0,  subStrLen).equals(s.substring(step, step + subStrLen))) return false;
+        if (!s.substring(0, subStrLen).equals(s.substring(step, step + subStrLen))) return false;
         return true;
     }
 }
