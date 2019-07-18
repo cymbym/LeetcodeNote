@@ -112,7 +112,7 @@ The solutions are derived from my own thinking and the discussion.
 |463|[Island Perimeter](https://leetcode.com/problems/island-perimeter/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/IslandPerimeter.java)|Multidimensional Array
 |475|[Heaters](https://leetcode.com/problems/heaters/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/Heaters.java)|Two Pointers, Array, Dynamic programming
 |476|[Number Complement](https://leetcode.com/problems/number-complement/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/NumberComplement.java)|SysConvert, Bit Manipulation
-|476|[License Key Formatting](https://leetcode.com/problems/license-key-formatting/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/LicenseKeyFormatting.java)|SysConvert, Bit Manipulation
+|476|[License Key Formatting](https://leetcode.com/problems/license-key-formatting/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/LicenseKeyFormatting.java)|String, char[]
 
 
 
