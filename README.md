@@ -76,7 +76,8 @@ The solutions are derived from my own thinking and the discussion.
 |278|[First Bad Version](https://leetcode.com/problems/first-bad-version/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FirstBadVersion.java)|Divide and Conquer, Two Pointers
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MoveZeroes.java)|Flag
 |290|[Word Pattern](https://leetcode.com/problems/word-pattern/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/WordPattern.java)|HashMap, String, char[]
-|292|[Nim Game](https://leetcode.com/problems/nim-game/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/NimGame.java)|Math
+|292|[Nim Game](https://leetcode.com/problems/nim-game/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/NimGame.java)|HashMap, String, char[]
+|299|[Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/BullsandCows.java)|Math
 |303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/RangeSumQuery-Immutable.java)|Array, Class
 |326|[Power of Three](https://leetcode.com/problems/power-of-three/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/PowerofThree.java)|Math
 |342|[Power of Four](https://leetcode.com/problems/power-of-four/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/PowerofFour.java)|Math, AND
@@ -121,4 +122,5 @@ The solutions are derived from my own thinking and the discussion.
 |501|[Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FindModeinBinarySearchTree.java)|ArrayList, HashMap, Recursion, Depth-first Search, Inorder traversal
 |504|[Base 7](https://leetcode.com/problems/base-7/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/Base7.java)|SysConvert
 |506|[Relative Ranks](https://leetcode.com/problems/relative-ranks/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/RelativeRanks.java)|Array, String[], HashMap
+|506|[Perfect Number](https://leetcode.com/problems/relative-ranks/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/PerfectNumber.java)|Dynamic programming, Math, Bit Manipulation
 
