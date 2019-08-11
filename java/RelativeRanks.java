@@ -11,7 +11,8 @@ N is a positive integer and won't exceed 10,000.
 All the scores of athletes are guaranteed to be unique.
 
 1.我的：先将原始值存储到HashMap中，后用Arrays.sort()进行排序，最后对应输出。6ms。
-2.最优解：1ms。
+2.最优解：将原本的nums[key] = valus.转存为hash[value] = key.。
+          遍历hash时，遍历过程即对应value递增过程。1ms。
 
 */
 

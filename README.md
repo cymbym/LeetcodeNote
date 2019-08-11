@@ -121,6 +121,8 @@ The solutions are derived from my own thinking and the discussion.
 |500|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/KeyboardRow.java)|Array, String[], HashMap
 |501|[Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FindModeinBinarySearchTree.java)|ArrayList, HashMap, Recursion, Depth-first Search, Inorder traversal
 |504|[Base 7](https://leetcode.com/problems/base-7/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/Base7.java)|SysConvert
-|506|[Relative Ranks](https://leetcode.com/problems/relative-ranks/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/RelativeRanks.java)|Array, String[], HashMap
-|506|[Perfect Number](https://leetcode.com/problems/relative-ranks/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/PerfectNumber.java)|Dynamic programming, Math, Bit Manipulation
+|506|[Relative Ranks](https://leetcode.com/problems/relative-ranks/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/RelativeRanks.java)|String, char[]
+|507|[Perfect Number](https://leetcode.com/problems/perfect-number)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/PerfectNumber.java)|Dynamic programming, Math, Bit Manipulation
+|509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FibonacciNumber.java)|Math
+|520|[Detect Capital](https://leetcode.com/problems/detect-capital/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/DetectCapital.java)|String
 
