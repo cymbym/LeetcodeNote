@@ -127,5 +127,6 @@ The solutions are derived from my own thinking and the discussion.
 |520|[Detect Capital](https://leetcode.com/problems/detect-capital/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/DetectCapital.java)|String
 |521|[Longest Uncommon Subsequence I](https://leetcode.com/problems/longest-uncommon-subsequence-i/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/LongestUncommonSubsequenceI.java)|String, Math
 |530|[Minimum Absolute Difference in BST](https://leetcode.com/problems/longest-uncommon-subsequence-i/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MinimumAbsoluteDifferenceinBST.java)|Tree, Recursion, Depth-first Search, Inorder traversal
-|532|[K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/K-diffPairsinanArray.java.java)|HashMap, Two Pointers
+|532|[K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/K-diffPairsinanArray.java)|HashMap, Two Pointers
+|538|[Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ConvertBSTtoGreaterTree.java)|Tree, Recursion, Depth-first Search, Inorder traversal
 
