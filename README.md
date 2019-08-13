@@ -119,10 +119,13 @@ The solutions are derived from my own thinking and the discussion.
 |492|[Construct the Rectangle](https://leetcode.com/problems/construct-the-rectangle/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ConstructtheRectangle.java)|Math, Array
 |496|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/NextGreaterElementI.java)|Array, HashMap
 |500|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/KeyboardRow.java)|Array, String[], HashMap
-|501|[Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FindModeinBinarySearchTree.java)|ArrayList, HashMap, Recursion, Depth-first Search, Inorder traversal
+|501|[Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FindModeinBinarySearchTree.java)|ArrayList, HashMap, Tree, Recursion, Depth-first Search, Inorder traversal
 |504|[Base 7](https://leetcode.com/problems/base-7/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/Base7.java)|SysConvert
 |506|[Relative Ranks](https://leetcode.com/problems/relative-ranks/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/RelativeRanks.java)|String, char[]
 |507|[Perfect Number](https://leetcode.com/problems/perfect-number)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/PerfectNumber.java)|Dynamic programming, Math, Bit Manipulation
 |509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FibonacciNumber.java)|Math
 |520|[Detect Capital](https://leetcode.com/problems/detect-capital/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/DetectCapital.java)|String
+|521|[Longest Uncommon Subsequence I](https://leetcode.com/problems/longest-uncommon-subsequence-i/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/LongestUncommonSubsequenceI.java)|String, Math
+|530|[Minimum Absolute Difference in BST](https://leetcode.com/problems/longest-uncommon-subsequence-i/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MinimumAbsoluteDifferenceinBST.java)|Tree, Recursion, Depth-first Search, Inorder traversal
+|532|[K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/K-diffPairsinanArray.java.java)|HashMap, Two Pointers
 
