@@ -65,7 +65,7 @@ The solutions are derived from my own thinking and the discussion.
 |226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/InvertBinaryTree.java)|Tree, Recursion, Depth-first Search
 |231|[Power of Two](https://leetcode.com/problems/power-of-two/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/PowerofTwo.java)|Math, AND
 |232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ImplementQueueusingStacks.java)|Array, Stack, Class
-|234|[Palindrome Linked List](https://leetcode.com/problems/implement-queue-using-stacks/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/PalindromeLinkedList.java)|Linked List, Two Pointers
+|234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/PalindromeLinkedList.java)|Linked List, Two Pointers
 |235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/LowestCommonAncestorofaBinarySearchTree.java)|Tree, Breadth-first Search
 |237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/DeleteNodeinaLinkedList.java)|Linked List
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ValidAnagram.java)|Hash Map, String, Array
@@ -95,12 +95,12 @@ The solutions are derived from my own thinking and the discussion.
 |400|[Nth Digit](https://leetcode.com/problems/nth-digit/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/NthDigit.java)|Math
 |401|[Binary Watch](https://leetcode.com/problems/binary-watch/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/BinaryWatch.java)|Recursion, Bit Manipulation, Combination
 |404|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/SumofLeftLeaves.java)|Tree, Recursion, Depth-first Search
-|405|[Convert a Number to Hexadecimal](https://leetcode.com/problems/sum-of-left-leaves/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ConvertaNumbertoHexadecimal.java)|SysConvert, Math, Bit Manipulation
+|405|[Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ConvertaNumbertoHexadecimal.java)|SysConvert, Math, Bit Manipulation
 |409|[Longest Palindrome](https://leetcode.com/problems/longest-palindrome)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/LongestPalindrome.java)|String, char[]
 |412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FizzBuzz.java)|Int to String
 |414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ThirdMaximumNumber.java)|Integer to Long
 |415|[Add Strings](https://leetcode.com/problems/add-strings/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/AddStrings.java)|String, char[]
-|429|[N-ary Tree Level Order Traversal](https://leetcode.com/problems/add-strings/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/N-aryTreeLevelOrderTraversal.java)|Tree, Breadth-first Search, Recursion, Depth-first Search
+|429|[N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/N-aryTreeLevelOrderTraversal.java)|Tree, Breadth-first Search, Recursion, Depth-first Search
 |437|[Path Sum III](https://leetcode.com/problems/path-sum-iii/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/PathSumIII.java)|Tree, Recursion, Depth-first Search, HashMap
 |438|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FindAllAnagramsinaString.java)|Two Pointers, Dynamic programming
 |441|[Arranging Coins](https://leetcode.com/problems/arranging-coins/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ArrangingCoins.java)|Divide and Conquer, Two Pointers
@@ -126,8 +126,11 @@ The solutions are derived from my own thinking and the discussion.
 |509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FibonacciNumber.java)|Math
 |520|[Detect Capital](https://leetcode.com/problems/detect-capital/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/DetectCapital.java)|String
 |521|[Longest Uncommon Subsequence I](https://leetcode.com/problems/longest-uncommon-subsequence-i/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/LongestUncommonSubsequenceI.java)|String, Math
-|530|[Minimum Absolute Difference in BST](https://leetcode.com/problems/longest-uncommon-subsequence-i/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MinimumAbsoluteDifferenceinBST.java)|Tree, Recursion, Depth-first Search, Inorder traversal
+|530|[Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MinimumAbsoluteDifferenceinBST.java)|Tree, Recursion, Depth-first Search, Inorder traversal
 |532|[K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/K-diffPairsinanArray.java)|HashMap, Two Pointers
 |538|[Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ConvertBSTtoGreaterTree.java)|Tree, Recursion, Depth-first Search, Inorder traversal
 |541|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ReverseStringII.java)|String, char[]
+|543|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/DiameterofBinaryTree.java)|Tree, Recursion, Depth-first Search, Postorder traversal
+|551|[Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/StudentAttendanceRecordI.java)|String, char[]
+|557|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ReverseWordsinaStringIII.java)|String, char[]
 
