@@ -21,7 +21,7 @@ The minimum absolute difference is 1, which is the difference between 2 and 1 (o
 Note: There are at least two nodes in this BST.
 
 1.BST有个性质就是当中序遍历时，得到的值就是按顺序得到的。
-2.写了个递归函数，用于存储全局变量数组：前一个结点的值 + 最小差。
+2.写了个递归函数，用于存储：前一个结点的值 + 最小差。
 */
 
 
@@ -36,19 +36,19 @@ Note: There are at least two nodes in this BST.
  * }
  */
 class Solution {
-    private int[] ans;
+    int prev;
+    int ans;
     public int getMinimumDifference(TreeNode root) {
-        ans = new int[2];
-        ans[0] = Integer.MIN_VALUE; //前一个结点的初始化值
-        ans[1] = Integer.MAX_VALUE; //最小差值的初始化值
+        prev = Integer.MIN_VALUE;
+        ans = Integer.MAX_VALUE;
         getPrevMin(root);
-        return ans[1];
+        return ans;
     }
     private void getPrevMin(TreeNode root) {
         if (root != null) {
             if (root.left != null) getPrevMin(root.left);
-            if (ans[0] != Integer.MIN_VALUE) ans[1] = Math.min(ans[1], root.val - ans[0]);
-            ans[0] = root.val;
+            if (prev != Integer.MIN_VALUE) ans = Math.min(ans, root.val - prev);
+            prev = root.val;
             if (root.right != null) getPrevMin(root.right);
         }
     }

@@ -15,7 +15,7 @@ Output: The root of a Greater Tree like this:
           20     13
 
 		  
-1.由于是BST，采用反向的中序遍历更新树，使用数组存储全局变量：结点和。
+1.由于是BST，采用反向的中序遍历更新树，使用全局变量sum作为结点和。
 */
 
 
@@ -28,22 +28,30 @@ Output: The root of a Greater Tree like this:
  *     TreeNode(int x) { val = x; }
  * }
  */
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
 class Solution {
+    int sum;
     public TreeNode convertBST(TreeNode root) {
-        int[] sum = new int[1];
-        sum[0] = 0;
-        toGreater(root, sum);
+        sum = 0;
+        toGreater(root);
         return root;
     }
-    private void toGreater(TreeNode root, int[] sum) {
+    public void toGreater(TreeNode root) {
         if (root == null) return;
         else {
-            toGreater(root.right, sum);
-            sum[0] += root.val;
-            root.val = sum[0];
-            toGreater(root.left, sum);            
+            toGreater(root.right);
+            sum += root.val;
+            root.val = sum;
+            toGreater(root.left);            
             return;
         }
     }
 }
-
