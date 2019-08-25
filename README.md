@@ -133,4 +133,5 @@ The solutions are derived from my own thinking and the discussion.
 |543|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/DiameterofBinaryTree.java)|Tree, Recursion, Depth-first Search, Postorder traversal
 |551|[Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/StudentAttendanceRecordI.java)|String, char[]
 |557|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ReverseWordsinaStringIII.java)|String, char[]
+|558|[Quad Tree Intersection](https://leetcode.com/problems/quad-tree-intersection/submissions/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/QuadTreeIntersection.java)|OR
 
