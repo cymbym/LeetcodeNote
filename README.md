@@ -136,4 +136,5 @@ The solutions are derived from my own thinking and the discussion.
 |558|[Quad Tree Intersection](https://leetcode.com/problems/quad-tree-intersection/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/QuadTreeIntersection.java)|OR
 |559|[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MaximumDepthofN-aryTree.java)|Tree, Breadth-first Search, Recursion
 |561|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ArrayPartitionI.java)|ArrayList
+|563|[Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/BinaryTreeTilt.java)|Tree, Recursion, Depth-first Search
 
