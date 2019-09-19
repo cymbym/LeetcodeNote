@@ -137,4 +137,5 @@ The solutions are derived from my own thinking and the discussion.
 |559|[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MaximumDepthofN-aryTree.java)|Tree, Breadth-first Search, Recursion
 |561|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ArrayPartitionI.java)|ArrayList
 |563|[Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/BinaryTreeTilt.java)|Tree, Recursion, Depth-first Search
+|566|[Reshape the Matrix](https://leetcode.com/problems/binary-tree-tilt/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ReshapetheMatrix.java)|Array
 
