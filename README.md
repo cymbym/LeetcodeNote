@@ -138,4 +138,7 @@ The solutions are derived from my own thinking and the discussion.
 |561|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ArrayPartitionI.java)|ArrayList
 |563|[Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/BinaryTreeTilt.java)|Tree, Recursion, Depth-first Search
 |566|[Reshape the Matrix](https://leetcode.com/problems/binary-tree-tilt/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ReshapetheMatrix.java)|Array
+|572|[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/SubtreeofAnotherTree.java)|Tree, Recursion, Depth-first Search
+|581|[Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ShortestUnsortedContinuousSubarray.java)|Array, HashMap
+
 
