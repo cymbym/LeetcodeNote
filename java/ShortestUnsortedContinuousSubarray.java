@@ -11,51 +11,40 @@ Note:
 Then length of the input array is in range [1, 10,000].
 The input array may contain duplicates, so ascending order here means <=.
 
-
+1.
 */
 
 
 
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
- * }
- */
 class Solution {
-    public boolean isSubtree(TreeNode s, TreeNode t) {
-        if (s == null) return t == null;
-        else if (t == null) return false;
+    public int findUnsortedSubarray(int[] nums) {
+        int min = Integer.MAX_VALUE;
+        int max = Integer.MIN_VALUE;
+        boolean flagInc = false;
+        boolean flagDec = false;
+        for (int i = 1; i < nums.length; i ++) {
+            if (nums[i] < nums[i - 1]) flagInc = true;
+            if (flagInc && min > nums[i]) min = nums[i];
+            if (nums[nums.length - i - 1] > nums[nums.length - i]) flagDec = true;
+            if (flagDec && max < nums[nums.length - i - 1]) max = nums[nums.length - i - 1];
+        }
+        if (min == Integer.MAX_VALUE && max == Integer.MIN_VALUE) return 0;
         else {
-            if (s.val == t.val) return (isSametree(s.left, t.left) && isSametree(s.right, t.right)) || isSubtree(s.left, t) || isSubtree(s.right, t);
-            else return isSubtree(s.left, t) || isSubtree(s.right, t);
+            int start = 0;
+            int end = 0;
+            flagInc = true;
+            flagDec = true;
+            for (int i = 0; i < nums.length; i ++) {
+                if(flagInc && nums[i] > min) {
+                    start = i;
+                    flagInc = false;
+                }
+                if(flagDec && nums[nums.length - i - 1] < max) {
+                    end = nums.length - i - 1;
+                    flagDec = false;
+                }
+            }
+            return end - start + 1;
         }
-    }
-    public boolean isSametree(TreeNode s, TreeNode t) {
-        if (s == null) return t == null;
-        else if (t == null) return false;
-        else {
-            if (s.val == t.val)  return isSametree(s.left, t.left) && isSametree(s.right, t.right);
-            else return false;
-        }
-    }
-}
-
-class Solution {
-    TreeNode t0;
-    public boolean isSubtree(TreeNode s, TreeNode t) {
-        this.t0 = t;
-        return is(s, t);
-    }
-    public boolean is(TreeNode s, TreeNode t){
-        if(s == null) return t == null;
-        if(t == null) return false;
-        if(s.val == t.val) {
-            return (is(s.left, t.left) && is(s.right, t.right)) || is(s.left, t) || is(s.right, t);
-        }
-        return isSubtree(s.left, t0) || isSubtree(s.right, t0); //此处如果用t，这个t有可能是来自上述is(s.left, t.left)中的t.left，就不能将一切归零，重新对应了。
     }
 }
