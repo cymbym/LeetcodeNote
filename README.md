@@ -141,5 +141,7 @@ The solutions are derived from my own thinking and the discussion.
 |572|[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/SubtreeofAnotherTree.java)|Tree, Recursion, Depth-first Search
 |575|[Distribute Candies](https://leetcode.com/problems/distribute-candies/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/DistributeCandies.java)|Array, HashMap
 |581|[Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ShortestUnsortedContinuousSubarray.java)|Two Pointers, Dynamic programming
+|589|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/N-aryTreePreorderTraversal.java)|ArrayList, Tree, Recursion, Depth-first Search, Preorder traversal
+|590|[N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/N-aryTreePostorderTraversal.java)|ArrayList, Tree, Recursion, Depth-first Search, Postorder traversal
 
 
