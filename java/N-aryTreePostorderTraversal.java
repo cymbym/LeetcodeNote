@@ -37,13 +37,13 @@ class Solution {
     ArrayList<Integer> res = new ArrayList<Integer>();
     public List<Integer> postorder(Node root) {
         order(root);
-		return res;
+        return res;
     }
     public void order(Node root) {
         if(root == null) return;
         else {
-			for (Node i : root.children) order(i);
-			res.add(root.val);
+            for (Node i : root.children) order(i);
+            res.add(root.val);
         }
         return;
     }
