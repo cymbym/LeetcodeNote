@@ -146,5 +146,6 @@ The solutions are derived from my own thinking and the discussion.
 |594|[Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/LongestHarmoniousSubsequence.java)|ArrayList, Two Pointers, Dynamic programming
 |598|[Range Addition II](https://leetcode.com/problems/range-addition-ii/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/RangeAdditionII.java)|ArrayList
 |599|[Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MinimumIndexSumofTwoLists.java)|ArrayList, String[]
+|605|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/CanPlaceFlowers.java)|ArrayList, String[]
 
 

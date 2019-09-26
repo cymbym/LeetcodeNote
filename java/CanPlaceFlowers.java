@@ -1,28 +1,22 @@
 /*
-Suppose Andy and Doris want to choose a restaurant for dinner, and they both have a list of favorite restaurants represented by strings.
+Suppose you have a long flowerbed in which some of the plots are planted and some are not.
+ However, flowers cannot be planted in adjacent plots - they would compete for water and both would die.
 
-You need to help them find out their common interest with the least list index sum. If there is a choice tie between answers, output all of them with no order requirement. You could assume there always exists an answer.
+Given a flowerbed (represented as an array containing 0 and 1, where 0 means empty and 1 means not empty),
+ and a number n, return if n new flowers can be planted in it without violating the no-adjacent-flowers rule.
 
 Example 1:
-Input:
-["Shogun", "Tapioca Express", "Burger King", "KFC"]
-["Piatti", "The Grill at Torrey Pines", "Hungry Hunter Steakhouse", "Shogun"]
-Output: ["Shogun"]
-Explanation: The only restaurant they both like is "Shogun".
+Input: flowerbed = [1,0,0,0,1], n = 1
+Output: True
 Example 2:
-Input:
-["Shogun", "Tapioca Express", "Burger King", "KFC"]
-["KFC", "Shogun", "Burger King"]
-Output: ["Shogun"]
-Explanation: The restaurant they both like and have the least index sum is "Shogun" with index sum 1 (0+1).
+Input: flowerbed = [1,0,0,0,1], n = 2
+Output: False
 Note:
-1.The length of both lists will be in the range of [1, 1000].
-2.The length of strings in both lists will be in the range of [1, 30].
-3.The index is starting from 0 to the list length minus 1.
-4.No duplicates in both lists.
+The input array won't violate no-adjacent-flowers rule.
+The input array size is in the range of [1, 20000].
+n is a non-negative integer which won't exceed the input array size.
 
-1.我的解法：在同一个循环里，用一个HashMap存储出现过的字符及下标，并将最小下标和min与出现了两次的数的下标之和temp进行比较。 11ms。
-2.最优解：仅多了个if(i > min) break;提前结束遍历。5ms。
+
 
 */
 class Solution {
