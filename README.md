@@ -137,7 +137,7 @@ The solutions are derived from my own thinking and the discussion.
 |559|[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MaximumDepthofN-aryTree.java)|Tree, Breadth-first Search, Recursion
 |561|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ArrayPartitionI.java)|ArrayList
 |563|[Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/BinaryTreeTilt.java)|Tree, Recursion, Depth-first Search
-|566|[Reshape the Matrix](https://leetcode.com/problems/binary-tree-tilt/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ReshapetheMatrix.java)|Array
+|566|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ReshapetheMatrix.java)|Array
 |572|[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/SubtreeofAnotherTree.java)|Tree, Recursion, Depth-first Search
 |575|[Distribute Candies](https://leetcode.com/problems/distribute-candies/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/DistributeCandies.java)|Array, HashMap
 |581|[Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ShortestUnsortedContinuousSubarray.java)|Two Pointers, Dynamic programming
@@ -146,6 +146,9 @@ The solutions are derived from my own thinking and the discussion.
 |594|[Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/LongestHarmoniousSubsequence.java)|ArrayList, Two Pointers, Dynamic programming
 |598|[Range Addition II](https://leetcode.com/problems/range-addition-ii/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/RangeAdditionII.java)|ArrayList
 |599|[Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MinimumIndexSumofTwoLists.java)|ArrayList, String[]
-|605|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/CanPlaceFlowers.java)|ArrayList, String[]
-
+|605|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/CanPlaceFlowers.java)|Array, Divide and Conquer, Two Pointers
+|606|[Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ConstructStringfromBinaryTree.java)|String, StringBuilder
+|617|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MergeTwoBinaryTrees.java)|Tree, Recursion, Depth-first Search, Preorder traversal
+|628|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MaximumProductofThreeNumbers.java)|Array, Sort
+|633|[Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/SumofSquareNumbers.java)|Math, Fermat's theorem on sums of two squares
 
