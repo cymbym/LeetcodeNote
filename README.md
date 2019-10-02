@@ -126,9 +126,9 @@ The solutions are derived from my own thinking and the discussion.
 |509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FibonacciNumber.java)|Math
 |520|[Detect Capital](https://leetcode.com/problems/detect-capital/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/DetectCapital.java)|String
 |521|[Longest Uncommon Subsequence I](https://leetcode.com/problems/longest-uncommon-subsequence-i/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/LongestUncommonSubsequenceI.java)|String, Math
-|530|[Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MinimumAbsoluteDifferenceinBST.java)|Tree, Recursion, Depth-first Search, Inorder traversal
+|530|[Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MinimumAbsoluteDifferenceinBST.java)|Binary Search Tree, Recursion, Depth-first Search, Inorder traversal
 |532|[K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/K-diffPairsinanArray.java)|HashMap, Two Pointers
-|538|[Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ConvertBSTtoGreaterTree.java)|Tree, Recursion, Depth-first Search, Inorder traversal
+|538|[Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ConvertBSTtoGreaterTree.java)|Binary Search Tree, Recursion, Depth-first Search, Inorder traversal
 |541|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ReverseStringII.java)|String, char[]
 |543|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/DiameterofBinaryTree.java)|Tree, Recursion, Depth-first Search, Postorder traversal
 |551|[Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/StudentAttendanceRecordI.java)|String, char[]
@@ -151,4 +151,9 @@ The solutions are derived from my own thinking and the discussion.
 |617|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MergeTwoBinaryTrees.java)|Tree, Recursion, Depth-first Search, Preorder traversal
 |628|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MaximumProductofThreeNumbers.java)|Array, Sort
 |633|[Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/SumofSquareNumbers.java)|Math, Fermat's theorem on sums of two squares
+|637|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/AverageofLevelsinBinaryTree.java)|Tree, Breadth-first Search
+|643|[Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MaximumAverageSubarrayI.java)|Array, Dynamic programming
+|645|[Set Mismatch](https://leetcode.com/problems/set-mismatch/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/SetMismatch.java)|Array
+|653|[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/TwoSumIV-InputisaBST.java)|Binary Search Tree, Recursion, Depth-first Search, Inorder traversal, HashSet
+|657|[Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/RobotReturntoOrigin.java)|String, char[]
 
