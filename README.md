@@ -156,4 +156,6 @@ The solutions are derived from my own thinking and the discussion.
 |645|[Set Mismatch](https://leetcode.com/problems/set-mismatch/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/SetMismatch.java)|Array
 |653|[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/TwoSumIV-InputisaBST.java)|Binary Search Tree, Recursion, Depth-first Search, Inorder traversal, HashSet
 |657|[Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/RobotReturntoOrigin.java)|String, char[]
+|661|[Image Smoother](https://leetcode.com/problems/image-smoother/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ImageSmoother.java)|Array
+|665|[Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/Non-decreasingArray.java)|Array
 
