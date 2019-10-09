@@ -158,5 +158,6 @@ The solutions are derived from my own thinking and the discussion.
 |657|[Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/RobotReturntoOrigin.java)|String, char[]
 |661|[Image Smoother](https://leetcode.com/problems/image-smoother/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ImageSmoother.java)|Array
 |665|[Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/Non-decreasingArray.java)|Array
-|669|[Trim a Binary Search Tree](https://leetcode.com/problems/non-decreasing-array/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/TrimaBinarySearchTree.java)|Binary Search Tree, Recursion, Depth-first Search, Preorder Traversal
+|669|[Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/TrimaBinarySearchTree.java)|Binary Search Tree, Recursion, Depth-first Search, Preorder Traversal
+|669|[Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/TrimaBinarySearchTree.java)|Binary Search Tree, Recursion, Depth-first Search, Preorder Traversal
 
