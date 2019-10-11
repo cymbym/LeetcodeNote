@@ -163,4 +163,6 @@ The solutions are derived from my own thinking and the discussion.
 |674|[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/LongestContinuousIncreasingSubsequence.java)|Array
 |680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ValidPalindromeII.java)|String, char[], Two Pointers, Dynamic programming
 |682|[Baseball Game](https://leetcode.com/problems/baseball-game/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/BaseballGame.java)|ArrayList
+|686|[Repeated String Match](https://leetcode.com/problems/repeated-string-match/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/RepeatedStringMatch.java)|String, char[], Two Pointers, Dynamic programming
+|687|[Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/LongestUnivaluePath.java)|String, char[], Two Pointers, Dynamic programming
 
