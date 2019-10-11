@@ -159,5 +159,8 @@ The solutions are derived from my own thinking and the discussion.
 |661|[Image Smoother](https://leetcode.com/problems/image-smoother/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ImageSmoother.java)|Array
 |665|[Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/Non-decreasingArray.java)|Array
 |669|[Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/TrimaBinarySearchTree.java)|Binary Search Tree, Recursion, Depth-first Search, Preorder Traversal
-|669|[Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/TrimaBinarySearchTree.java)|Binary Search Tree, Recursion, Depth-first Search, Preorder Traversal
+|671|[Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/SecondMinimumNodeInaBinaryTree.java)|Recursion, Depth-first Search, Preorder Traversal
+|674|[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/LongestContinuousIncreasingSubsequence.java)|Array
+|680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ValidPalindromeII.java)|String, char[], Two Pointers, Dynamic programming
+|682|[Baseball Game](https://leetcode.com/problems/baseball-game/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/BaseballGame.java)|ArrayList
 
