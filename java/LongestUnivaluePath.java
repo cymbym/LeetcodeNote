@@ -34,65 +34,39 @@ Output: 2
 Note: The given binary tree has not more than 10000 nodes. The height of the tree is not more than 1000.
 
 
+1.利用前序遍历，对各个结点的两个子结点去判断其向左或者向右的同值长度的最大值。即UnivaluePath(root.left) 和 UnivaluePath(root.right);
+2.随后分别判断该结点和两个子结点是否相等，若相等，更新leftCur 和 rightCur。
+3.最后令res等于res 和 leftCur + rightCur 的最大值，UnivaluePath(root)的返回值等于leftCur 和 rightCur 的最大值（与步骤1呼应）。
 
 */
 
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
 class Solution {
-    public int repeatedStringMatch(String A, String B) {
-        char[] a = A.toCharArray();
-        char[] b = B.toCharArray();
-        int cnt = 0;
-        int m = 0;
-        int n = 0;
-        for (m = 0; m < a.length; m ++) {                        //case1: 判断"abc"和"c abcabc a"，此处处理"c"。
-            if (a[m] != b[n]) {
-                m -= n;
-                n = 0;
-            } else {
-                n ++;
-            }
-            if (n >= b.length && a.length >= b.length) return 1;  //case2: "aaa"和"a"，此处处理完。
-        }System.out.println("--");
-        m = 0;
-        cnt ++;
-        if (n == 0) return -1;
-        for (n = n; n < b.length; n ++) {                         //case1: 判断"abc"和"c abcabc a"，此处处理"abcabc"和"a"。
-            if (a[m] != b[n]) return -1;
-            else {
-                m ++;
-            }
-            if (m == a.length) {
-                m = 0;
-                cnt ++;
-            }
-        }
-        if (m > 0) cnt ++;
-        return cnt;
+    int res;
+    public int longestUnivaluePath(TreeNode root) {
+        res = 0;
+        UnivaluePath(root);
+        return res;
     }
-}
-
-
-class Solution {
-    public int repeatedStringMatch(String A, String B) {
-        if (B.indexOf(A) == -1) {
-            if (A.indexOf(B) != -1) return 1;                  //case1: "aaa"和"aa"，一次就含有B
-            else if ((A + A).indexOf(B) != -1) return 2;       //case2: "bba"和"ab" ，累加两次就含有B
-            else return -1;                                    //因为如果累加三次以上，才含有B，则B中必含A。如，"abc"和"c abc a"
+    public int UnivaluePath(TreeNode root) {
+        if (root == null) return 0;
+        else {
+            int leftPre = UnivaluePath(root.left);
+            int rightPre = UnivaluePath(root.right);
+            int leftCur = 0;
+            int rightCur = 0;
+            if (root.left != null && root.left.val == root.val) leftCur = leftPre + 1;
+            if (root.right != null && root.right.val == root.val) rightCur = rightPre + 1;
+            res = Math.max(res, leftCur + rightCur);
+            return Math.max(leftCur, rightCur);
         }
-        char[] a = A.toCharArray();
-        char[] b = B.toCharArray();
-        int count = 0;
-        int m = (a.length - B.indexOf(A)) % a.length;          //case3: 对齐"abc"和"c abcabc a"的"c"
-        if (m < 0) return -1;
-        for (int n = 0; n < b.length; n++) {                   //case3: 判断"abc"和"c abcabc a"，此处处理"abcabc"和"a"。
-            if (m == a.length) {
-                m = 0;
-                count++;
-            }
-            if (a[m] != b[n]) return -1;
-            m++;
-        }
-        if (m != 0) count++;
-        return count;
     }
 }

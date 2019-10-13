@@ -164,5 +164,7 @@ The solutions are derived from my own thinking and the discussion.
 |680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ValidPalindromeII.java)|String, char[], Two Pointers, Dynamic programming
 |682|[Baseball Game](https://leetcode.com/problems/baseball-game/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/BaseballGame.java)|ArrayList
 |686|[Repeated String Match](https://leetcode.com/problems/repeated-string-match/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/RepeatedStringMatch.java)|String, char[], Two Pointers, Dynamic programming
-|687|[Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/LongestUnivaluePath.java)|String, char[], Two Pointers, Dynamic programming
+|687|[Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/LongestUnivaluePath.java)|Recursion, Depth-first Search, Preorder Traversal
+|690|[EmployeeImportance](https://leetcode.com/problems/binary-number-with-alternating-bits/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/EmployeeImportance.java)|Math
+|696|[Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/CountBinarySubstrings.java)|Array, Dynamic programming
 
