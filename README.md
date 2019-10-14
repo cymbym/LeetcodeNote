@@ -167,4 +167,8 @@ The solutions are derived from my own thinking and the discussion.
 |687|[Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/LongestUnivaluePath.java)|Recursion, Depth-first Search, Preorder Traversal
 |690|[EmployeeImportance](https://leetcode.com/problems/binary-number-with-alternating-bits/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/EmployeeImportance.java)|Math
 |696|[Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/CountBinarySubstrings.java)|Array, Dynamic programming
+|697|[Degree of an Array](https://leetcode.com/problems/degree-of-an-array/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/DegreeofanArray.java)|Array, Dynamic programming
+|700|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/SearchinaBinarySearchTree.java)|Binary Search Tree, Recursion, Depth-first Search, Preorder Traversal
+|703|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/KthLargestElementinaStream.java)|Array, PriorityQueue, Heap
+
 
