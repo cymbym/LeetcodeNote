@@ -170,5 +170,6 @@ The solutions are derived from my own thinking and the discussion.
 |697|[Degree of an Array](https://leetcode.com/problems/degree-of-an-array/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/DegreeofanArray.java)|Array, Dynamic programming
 |700|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/SearchinaBinarySearchTree.java)|Binary Search Tree, Recursion, Depth-first Search, Preorder Traversal
 |703|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/KthLargestElementinaStream.java)|Array, PriorityQueue, Heap
+|704|[Binary Search](https://leetcode.com/problems/binary-search/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/BinarySearch.java)|Array, Divide and Conquer, Two Pointers, Dynamic programming
 
 
