@@ -171,5 +171,11 @@ The solutions are derived from my own thinking and the discussion.
 |700|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/SearchinaBinarySearchTree.java)|Binary Search Tree, Recursion, Depth-first Search, Preorder Traversal
 |703|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/KthLargestElementinaStream.java)|Array, PriorityQueue, Heap
 |704|[Binary Search](https://leetcode.com/problems/binary-search/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/BinarySearch.java)|Array, Divide and Conquer, Two Pointers, Dynamic programming
+|705|[Design HashSet](https://leetcode.com/problems/design-hashset/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/DesignHashSet.java)|Array
+|706|[Design HashSet](https://leetcode.com/problems/design-hashmap/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/DesignHashMap.java)|Array
+|707|[Design Linked List](https://leetcode.com/problems/design-linked-list/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/DesignLinkedList.java)|Class, ListNode, Divide and Conquer, Two Pointers
+|709|[To Lower Case](https://leetcode.com/problems/to-lower-case/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ToLowerCase.java)|Class, ListNode, Divide and Conquer, Two Pointers
+|717|[1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/1-bitand2-bitCharacters.java)|Array, Math
+|720|[Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/LongestWordinDictionary.java)|Array, Math
 
 
