@@ -176,6 +176,6 @@ The solutions are derived from my own thinking and the discussion.
 |707|[Design Linked List](https://leetcode.com/problems/design-linked-list/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/DesignLinkedList.java)|Class, ListNode, Divide and Conquer, Two Pointers
 |709|[To Lower Case](https://leetcode.com/problems/to-lower-case/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ToLowerCase.java)|Class, ListNode, Divide and Conquer, Two Pointers
 |717|[1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/1-bitand2-bitCharacters.java)|Array, Math
-|720|[Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/LongestWordinDictionary.java)|Array, Math
+|720|[Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/LongestWordinDictionary.java)|String, HashSet, Class, TrieNode, Recursion, Depth-first Search
 
 
