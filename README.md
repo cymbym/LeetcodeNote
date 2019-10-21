@@ -177,5 +177,13 @@ The solutions are derived from my own thinking and the discussion.
 |709|[To Lower Case](https://leetcode.com/problems/to-lower-case/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ToLowerCase.java)|Class, ListNode, Divide and Conquer, Two Pointers
 |717|[1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/1-bitand2-bitCharacters.java)|Array, Math
 |720|[Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/LongestWordinDictionary.java)|String, HashSet, Class, TrieNode, Recursion, Depth-first Search
+|724|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FindPivotIndex.java)|String, HashSet, Class, TrieNode, Recursion, Depth-first Search
+|728|[Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/SelfDividingNumbers.java)|ArrayList, Math
+|733|[Flood Fill](https://leetcode.com/problems/flood-fill/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FloodFill.java)|Array, Recursion, Depth-first Search
+|744|[Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FindSmallestLetterGreaterThanTarget.java)|char[]
+|746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MinCostClimbingStairs.java)|Iterate, Dynamic programming
+|747|[Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/LargestNumberAtLeastTwiceofOthers.java)|char[]
+|748|[Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ShortestCompletingWord.java)|char[]
+
 
 
