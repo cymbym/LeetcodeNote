@@ -27,10 +27,10 @@ words will have a length in the range [10, 1000].
 Every words[i] will consist of lowercase letters, and have length in range [1, 15].
 
 
-1.我的解：在一个数组int[] map中，存储licensePlate中各数出现的次数；用一个整型int cnt，存储出现各字母的总次数。
+1.我的解：在一个数组int[] map中，存储licensePlate中各数出现的次数；用一个整型int cnt，存储出现各字母的总次数。3ms。
   挨个判断各个字符串是否能够消掉map和cnt，若能则该数符合CompletingWord，随后不断更新最小的CompletingWord即可。
   其中，每次判断都调用map.copy()，因为map是引用数据类型，直接用作方法的参数会改变值。  
-2.最优解：每次都临时创建map和判断各个字符串。  
+2.最优解：每次都临时创建map和判断各个字符串。  1ms。
 */
 
 class Solution {
@@ -50,11 +50,7 @@ class Solution {
             }
         }
         for (String s: words) {
-            if (res.length() == 0) {
-				if (isCompletingWord(s, map.clone(), cnt)) {
-					if(res.length() == 0 || res.length() > s.length()) res = s;
-				}
-            } else if (res.length() > s.length()) {
+            if (res.length() == 0 || res.length() > s.length()) {
 				if (isCompletingWord(s, map.clone(), cnt)) {
 					if(res.length() == 0 || res.length() > s.length()) res = s;
 				}

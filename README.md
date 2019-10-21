@@ -183,7 +183,7 @@ The solutions are derived from my own thinking and the discussion.
 |744|[Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FindSmallestLetterGreaterThanTarget.java)|char[]
 |746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MinCostClimbingStairs.java)|Iterate, Dynamic programming
 |747|[Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/LargestNumberAtLeastTwiceofOthers.java)|char[]
-|748|[Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ShortestCompletingWord.java)|char[]
+|748|[Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ShortestCompletingWord.java)|String, char[], StringBuilder
 
 
 
