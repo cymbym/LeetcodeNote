@@ -51,10 +51,10 @@ class Solution {
         }
         for (String s: words) {
             if (res.length() == 0 || res.length() > s.length()) {
-				if (isCompletingWord(s, map.clone(), cnt)) {
-					if(res.length() == 0 || res.length() > s.length()) res = s;
-				}
-			}
+                if (isCompletingWord(s, map.clone(), cnt)) {
+                    if(res.length() == 0 || res.length() > s.length()) res = s;
+                }
+            }
         }
         return res;
     }
