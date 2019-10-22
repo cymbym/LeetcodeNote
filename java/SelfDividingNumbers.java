@@ -19,7 +19,7 @@ The boundaries of each input argument are 1 <= left <= right <= 10000.
 */
 
 class Solution {
-	List<Integer> res;
+    List<Integer> res;
     public List<Integer> selfDividingNumbers(int left, int right) {
         res = new ArrayList<Integer>();
         while (left <= right) {

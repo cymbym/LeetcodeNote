@@ -44,6 +44,6 @@ class Solution {
         for (int i = 0; i < nums.length; i ++) {
             if (sums[i] * 2 == sum - nums[i]) return i;
         }
-		return -1;
+        return -1;
     }
 }

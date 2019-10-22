@@ -184,6 +184,10 @@ The solutions are derived from my own thinking and the discussion.
 |746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MinCostClimbingStairs.java)|Iterate, Dynamic programming
 |747|[Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/LargestNumberAtLeastTwiceofOthers.java)|char[]
 |748|[Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ShortestCompletingWord.java)|String, char[], StringBuilder
+|754|[Reach a Number](https://leetcode.com/problems/reach-a-number/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ReachaNumber.java)|Math
+|762|[Prime Number of Set Bits in Binary Representation](https://leetcode.com/problems/reach-a-number/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/PrimeNumberofSetBitsinBinaryRepresentation.java)|Math, OR, HashMap
+|766|[Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ToeplitzMatrix.java)|Math, OR, HashMap
+
 
 
 
