@@ -186,8 +186,13 @@ The solutions are derived from my own thinking and the discussion.
 |748|[Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ShortestCompletingWord.java)|String, char[], StringBuilder
 |754|[Reach a Number](https://leetcode.com/problems/reach-a-number/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ReachaNumber.java)|Math
 |762|[Prime Number of Set Bits in Binary Representation](https://leetcode.com/problems/reach-a-number/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/PrimeNumberofSetBitsinBinaryRepresentation.java)|Math, OR, HashMap
-|766|[Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ToeplitzMatrix.java)|Math, OR, HashMap
-
-
+|766|[Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ToeplitzMatrix.java)|Array, Math
+|771|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/JewelsandStones.java)|String, char[]
+|783|[Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MinimumDistanceBetweenBSTNodes.java)|Binary Search Tree, Recursion, Depth-first Search, Inorder Traversal
+|784|[Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/LetterCasePermutation.java)|String, char[], Recursion
+|788|[Rotated Digits](https://leetcode.com/problems/rotated-digits/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/RotatedDigits.java)|String, char[], Recursion
+|796|[Rotate String](https://leetcode.com/problems/rotated-digits/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/RotateString.java)|String
+|804|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/UniqueMorseCodeWords.java)|String, StringBuilder, HashSet
+|821|[Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ShortestDistancetoaCharacter.java)|String, char[]
 
 
