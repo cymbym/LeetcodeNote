@@ -191,8 +191,14 @@ The solutions are derived from my own thinking and the discussion.
 |783|[Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MinimumDistanceBetweenBSTNodes.java)|Binary Search Tree, Recursion, Depth-first Search, Inorder Traversal
 |784|[Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/LetterCasePermutation.java)|String, char[], Recursion
 |788|[Rotated Digits](https://leetcode.com/problems/rotated-digits/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/RotatedDigits.java)|String, char[], Recursion
-|796|[Rotate String](https://leetcode.com/problems/rotated-digits/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/RotateString.java)|String
+|796|[Rotate String](https://leetcode.com/problems/rotate-string/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/RotateString.java)|String
 |804|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/UniqueMorseCodeWords.java)|String, StringBuilder, HashSet
 |821|[Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ShortestDistancetoaCharacter.java)|String, char[]
+|824|[Goat Latin](https://leetcode.com/problems/goat-latin/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/GoatLatin.java)|String, StringBuilder
+|830|[Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/PositionsofLargeGroups.java)|Bidimensional array
+|832|[Flipping an Image](https://leetcode.com/problems/flipping-an-image/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/PositionsofLargeGroups.java)|Array
+|836|[Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/RectangleOverlap.java)|Array, Math
+|844|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/BackspaceStringCompare.java)|Stack, String, char[]
+|849|[Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MaximizeDistancetoClosestPerson.java)|Array, Math
 
 
