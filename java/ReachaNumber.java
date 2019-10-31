@@ -32,7 +32,7 @@ target will be a non-zero integer in the range [-10^9, 10^9].
 class Solution {
     public int reachNumber(int target) {
         target = Math.abs(target);
-		int i = 1;
+        int i = 1;
         int sum = i;
         while (sum < target) {
             i ++;
