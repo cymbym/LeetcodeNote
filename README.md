@@ -200,5 +200,9 @@ The solutions are derived from my own thinking and the discussion.
 |836|[Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/RectangleOverlap.java)|Array, Math
 |844|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/BackspaceStringCompare.java)|Stack, String, char[]
 |849|[Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MaximizeDistancetoClosestPerson.java)|Array, Math
-
-
+|859|[Buddy Strings](https://leetcode.com/problems/buddy-strings/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/javaBuddyStrings.java)|Array, Math
+|860|[Lemonade Change](https://leetcode.com/problems/lemonade-change/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/LemonadeChange.java)|Array
+|867|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/TransposeMatrix.java)|Array
+|872|[Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/Leaf-SimilarTrees.java)|Tree, Recursion, Depth-first Search, Preorder Traversal
+|876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/MiddleoftheLinkedList.java)|Linked List, Two Pointers
+|884|[Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/UncommonWordsfromTwoSentences.java)|String, HashMap, HashSet
