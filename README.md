@@ -206,3 +206,7 @@ The solutions are derived from my own thinking and the discussion.
 |872|[Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/Leaf-SimilarTrees.java)|Tree, Recursion, Depth-first Search, Preorder Traversal
 |876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/MiddleoftheLinkedList.java)|Linked List, Two Pointers
 |884|[Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/UncommonWordsfromTwoSentences.java)|String, HashMap, HashSet
+|888|[Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/FairCandySwap.java)|Array
+|896|[Monotonic Array](https://leetcode.com/problems/monotonic-array/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/MonotonicArray.java)|Array
+|897|[Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/IncreasingOrderSearchTree.java)|Binary Search Tree, Recursion, Depth-first Search, Inorder Traversal
+|897|[Increasing Order Search Tree](https://leetcode.com/problems/monotonic-array/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/MonotonicArray.java)|Binary Search Tree, Recursion, Depth-first Search, Inorder Traversal
