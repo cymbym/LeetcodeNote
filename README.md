@@ -207,6 +207,15 @@ The solutions are derived from my own thinking and the discussion.
 |876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MiddleoftheLinkedList.java)|Linked List, Two Pointers
 |884|[Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/UncommonWordsfromTwoSentences.java)|String, HashMap, HashSet
 |888|[Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FairCandySwap.java)|Array
+|892|[Surface Area of 3D Shapes](https://leetcode.com/problems/surface-area-of-3d-shapes/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/SurfaceAreaof3DShapes.java)|Array
 |896|[Monotonic Array](https://leetcode.com/problems/monotonic-array/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MonotonicArray.java)|Array
 |897|[Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/IncreasingOrderSearchTree.java)|Binary Search Tree, Recursion, Depth-first Search, Inorder Traversal
-|897|[Increasing Order Search Tree](https://leetcode.com/problems/monotonic-array/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MonotonicArray.java)|Binary Search Tree, Recursion, Depth-first Search, Inorder Traversal
+|905|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/SortArrayByParity.java)|Array, Two Pointers, Dynamic programming
+|914|[X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/XofaKindinaDeckofCards.java)|Array, HashMap, HashSet, Common Divisors
+|917|[Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ReverseOnlyLetters.java)|String, char[], Two Pointers, Dynamic programming
+|922|[Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/SortArrayByParityII.java)|Array, Two Pointers, Dynamic programming
+|925|[Long Pressed Name](https://leetcode.com/problems/sort-array-by-parity-ii/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/LongPressedName.java)|String, char[], Two Pointers, Dynamic programming
+
+
+
+
