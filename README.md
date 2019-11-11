@@ -214,7 +214,11 @@ The solutions are derived from my own thinking and the discussion.
 |914|[X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/XofaKindinaDeckofCards.java)|Array, HashMap, HashSet, Common Divisors
 |917|[Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ReverseOnlyLetters.java)|String, char[], Two Pointers, Dynamic programming
 |922|[Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/SortArrayByParityII.java)|Array, Two Pointers, Dynamic programming
-|925|[Long Pressed Name](https://leetcode.com/problems/sort-array-by-parity-ii/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/LongPressedName.java)|String, char[], Two Pointers, Dynamic programming
+|925|[Long Pressed Name](https://leetcode.com/problems/long-pressed-name/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/LongPressedName.java)|String, char[], Two Pointers, Dynamic programming
+|929|[Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/UniqueEmailAddresses.java)|String, StringBuilder, char[], HashSet
+|938|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/RangeSumofBST.java)|Binary Search Tree, Recursion, Depth-first Search, Inorder Traversal
+|941|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ValidMountainArray.java)|Array
+|942|[DI String Match](https://leetcode.com/problems/di-string-match/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/DIStringMatch.java)|Array, Recursion
 
 
 
