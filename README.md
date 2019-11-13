@@ -219,6 +219,14 @@ The solutions are derived from my own thinking and the discussion.
 |938|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/RangeSumofBST.java)|Binary Search Tree, Recursion, Depth-first Search, Inorder Traversal
 |941|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ValidMountainArray.java)|Array
 |942|[DI String Match](https://leetcode.com/problems/di-string-match/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/DIStringMatch.java)|Array, Recursion
+|953|[Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/VerifyinganAlienDictionary.java)|String, char[], Array
+|961|[N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/N-RepeatedElementinSize2NArray.java)|Array
+|965|[Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/UnivaluedBinaryTree.java)|Binary Tree, Recursion, Depth-first Search, Preorder Traversal
+|976|[Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/LargestPerimeterTriangle.java)|Array
+|977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/SquaresofaSortedArray.java)|Array, Two Pointers, Dynamic programming
+|985|[Sum of Even Numbers After Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/SumofEvenNumbersAfterQueries.java)|Array
+|989|[Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/AddtoArray-FormofInteger.java)|ArrayList
+|993|[Cousins in Binary Tree](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/CousinsinBinaryTree.java)|Array
 
 
 
