@@ -227,6 +227,7 @@ The solutions are derived from my own thinking and the discussion.
 |985|[Sum of Even Numbers After Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/SumofEvenNumbersAfterQueries.java)|Array
 |989|[Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/AddtoArray-FormofInteger.java)|ArrayList
 |993|[Cousins in Binary Tree](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/CousinsinBinaryTree.java)|Array
+|994|[Rotting Oranges](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/RottingOranges.java)|Breadth-first Search, Array, Queue, HashMap
 
 
 
