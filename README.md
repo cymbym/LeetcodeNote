@@ -228,6 +228,8 @@ The solutions are derived from my own thinking and the discussion.
 |989|[Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/AddtoArray-FormofInteger.java)|ArrayList
 |993|[Cousins in Binary Tree](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/CousinsinBinaryTree.java)|Array
 |994|[Rotting Oranges](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/RottingOranges.java)|Breadth-first Search, Array, Queue, HashMap
+|1002|[Find Common Characters](https://leetcode.com/problems/find-common-characters/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FindCommonCharacters.java)|String, char[], Array
+|1005|[Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MaximizeSumOfArrayAfterKNegations.java)|String, char[], Array
 
 
 
