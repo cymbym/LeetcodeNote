@@ -229,6 +229,8 @@ The solutions are derived from my own thinking and the discussion.
 |1009|[Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ComplementofBase10Integer.java)|Math, Division Algorithm, Bit Manipulation
 |1010|[Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/PairsofSongsWithTotalDurationsDivisibleby60.java)|Array, Math, Dynamic programming
 |1013|[Partition Array Into Three Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/PartitionArrayIntoThreePartsWithEqualSum.java)|Array
+|1018|[Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/BinaryPrefixDivisibleBy5.java)|Math
+|1022|[Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/SumofRootToLeafBinaryNumbers.java)|Binary Tree, Recursion, Depth-first Search, Preorder Traversal
 
 
 ## Medium
