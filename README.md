@@ -226,9 +226,9 @@ The solutions are derived from my own thinking and the discussion.
 |994|[Rotting Oranges](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/RottingOranges.java)|Breadth-first Search, Array, Queue, HashMap
 |1002|[Find Common Characters](https://leetcode.com/problems/find-common-characters/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FindCommonCharacters.java)|String, char[], Array
 |1005|[Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MaximizeSumOfArrayAfterKNegations.java)|Array
-|1009|[Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ComplementofBase10Integer.java)||Math, Division Algorithm, Bit Manipulation
-|1010|[Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/PairsofSongsWithTotalDurationsDivisibleby60.java)||Array, Math, Dynamic programming
-|1013|[Partition Array Into Three Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/PartitionArrayIntoThreePartsWithEqualSum.java)||Array
+|1009|[Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ComplementofBase10Integer.java)|Math, Division Algorithm, Bit Manipulation
+|1010|[Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/PairsofSongsWithTotalDurationsDivisibleby60.java)|Array, Math, Dynamic programming
+|1013|[Partition Array Into Three Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/PartitionArrayIntoThreePartsWithEqualSum.java)|Array
 
 
 ## Medium
