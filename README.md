@@ -166,6 +166,7 @@ The solutions are derived from my own thinking and the discussion.
 |686|[Repeated String Match](https://leetcode.com/problems/repeated-string-match/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/RepeatedStringMatch.java)|String, char[], Two Pointers, Dynamic programming
 |687|[Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/LongestUnivaluePath.java)|Recursion, Depth-first Search, Preorder Traversal
 |690|[EmployeeImportance](https://leetcode.com/problems/binary-number-with-alternating-bits/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/EmployeeImportance.java)|Math
+|693|[Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/BinaryNumberwithAlternatingBits.java)|Math, Division Algorithm, Bit Manipulation
 |696|[Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/CountBinarySubstrings.java)|Array, Dynamic programming
 |697|[Degree of an Array](https://leetcode.com/problems/degree-of-an-array/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/DegreeofanArray.java)|Array, Dynamic programming
 |700|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/SearchinaBinarySearchTree.java)|Binary Search Tree, Recursion, Depth-first Search, Preorder Traversal
@@ -229,8 +230,9 @@ The solutions are derived from my own thinking and the discussion.
 |993|[Cousins in Binary Tree](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/CousinsinBinaryTree.java)|Array
 |994|[Rotting Oranges](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/RottingOranges.java)|Breadth-first Search, Array, Queue, HashMap
 |1002|[Find Common Characters](https://leetcode.com/problems/find-common-characters/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FindCommonCharacters.java)|String, char[], Array
-|1005|[Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MaximizeSumOfArrayAfterKNegations.java)|String, char[], Array
-
-
+|1005|[Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MaximizeSumOfArrayAfterKNegations.java)|Array
+|1009|[Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ComplementofBase10Integer.java)||Math, Division Algorithm, Bit Manipulation
+|1010|[Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/PairsofSongsWithTotalDurationsDivisibleby60.java)||Array, Math, Dynamic programming
+|1013|[Partition Array Into Three Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/PartitionArrayIntoThreePartsWithEqualSum.java)||Array
 
 
