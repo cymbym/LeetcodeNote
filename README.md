@@ -5,7 +5,7 @@ The solutions are derived from my own thinking and the discussion.
 
 
 
-## easy
+## Easy
 | # | Title |  Solution&emsp;  | Tag |
 |---| ----- | -------- | --- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/TwoSum.java),  [Python](https://github.com/cymbym/LeetcodeNote/blob/master/python/TwoSum.py)|Hash Map<br/>Dict|
@@ -92,7 +92,6 @@ The solutions are derived from my own thinking and the discussion.
 |387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FirstUniqueCharacterinaString.java)|String, char[]
 |389|[Find the Difference](https://leetcode.com/problems/find-the-difference/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FindtheDifference.java)|String, char[], XOR
 |392|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/IsSubsequence.java)|String
-|400|[Nth Digit](https://leetcode.com/problems/nth-digit/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/NthDigit.java)|Math
 |401|[Binary Watch](https://leetcode.com/problems/binary-watch/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/BinaryWatch.java)|Recursion, Bit Manipulation, Combination
 |404|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/SumofLeftLeaves.java)|Tree, Recursion, Depth-first Search
 |405|[Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ConvertaNumbertoHexadecimal.java)|SysConvert, Math, Bit Manipulation
@@ -100,9 +99,7 @@ The solutions are derived from my own thinking and the discussion.
 |412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FizzBuzz.java)|Int to String
 |414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ThirdMaximumNumber.java)|Integer to Long
 |415|[Add Strings](https://leetcode.com/problems/add-strings/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/AddStrings.java)|String, char[]
-|429|[N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/N-aryTreeLevelOrderTraversal.java)|Tree, Breadth-first Search, Recursion, Depth-first Search
 |437|[Path Sum III](https://leetcode.com/problems/path-sum-iii/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/PathSumIII.java)|Tree, Recursion, Depth-first Search, HashMap
-|438|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FindAllAnagramsinaString.java)|Two Pointers, Dynamic programming
 |441|[Arranging Coins](https://leetcode.com/problems/arranging-coins/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ArrangingCoins.java)|Divide and Conquer, Two Pointers
 |443|[String Compression](https://leetcode.com/problems/string-compression/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/StringCompression.java)|Two Pointers, char[]
 |447|[Number of Boomerangs](https://leetcode.com/problems/number-of-boomerangs/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/NumberofBoomerangs.java)|HashMap, Permutation
@@ -174,7 +171,6 @@ The solutions are derived from my own thinking and the discussion.
 |704|[Binary Search](https://leetcode.com/problems/binary-search/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/BinarySearch.java)|Array, Divide and Conquer, Two Pointers, Dynamic programming
 |705|[Design HashSet](https://leetcode.com/problems/design-hashset/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/DesignHashSet.java)|Array
 |706|[Design HashSet](https://leetcode.com/problems/design-hashmap/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/DesignHashMap.java)|Array
-|707|[Design Linked List](https://leetcode.com/problems/design-linked-list/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/DesignLinkedList.java)|Class, ListNode, Divide and Conquer, Two Pointers
 |709|[To Lower Case](https://leetcode.com/problems/to-lower-case/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ToLowerCase.java)|Class, ListNode, Divide and Conquer, Two Pointers
 |717|[1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/1-bitand2-bitCharacters.java)|Array, Math
 |720|[Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/LongestWordinDictionary.java)|String, HashSet, Class, TrieNode, Recursion, Depth-first Search
@@ -185,7 +181,6 @@ The solutions are derived from my own thinking and the discussion.
 |746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MinCostClimbingStairs.java)|Iterate, Dynamic programming
 |747|[Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/LargestNumberAtLeastTwiceofOthers.java)|char[]
 |748|[Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ShortestCompletingWord.java)|String, char[], StringBuilder
-|754|[Reach a Number](https://leetcode.com/problems/reach-a-number/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ReachaNumber.java)|Math
 |762|[Prime Number of Set Bits in Binary Representation](https://leetcode.com/problems/reach-a-number/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/PrimeNumberofSetBitsinBinaryRepresentation.java)|Math, OR, HashMap
 |766|[Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ToeplitzMatrix.java)|Array, Math
 |771|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/JewelsandStones.java)|String, char[]
@@ -236,3 +231,11 @@ The solutions are derived from my own thinking and the discussion.
 |1013|[Partition Array Into Three Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/PartitionArrayIntoThreePartsWithEqualSum.java)||Array
 
 
+## Medium
+| # | Title |  Solution&emsp;  | Tag |
+|---| ----- | -------- | --- |
+|400|[Nth Digit](https://leetcode.com/problems/nth-digit/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/NthDigit.java)|Math
+|429|[N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/N-aryTreeLevelOrderTraversal.java)|Tree, Breadth-first Search, Recursion, Depth-first Search
+|438|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FindAllAnagramsinaString.java)|Two Pointers, Dynamic programming
+|707|[Design Linked List](https://leetcode.com/problems/design-linked-list/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/DesignLinkedList.java)|Class, ListNode, Divide and Conquer, Two Pointers
+|754|[Reach a Number](https://leetcode.com/problems/reach-a-number/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ReachaNumber.java)|Math
