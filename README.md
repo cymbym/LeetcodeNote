@@ -231,6 +231,8 @@ The solutions are derived from my own thinking and the discussion.
 |1013|[Partition Array Into Three Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/PartitionArrayIntoThreePartsWithEqualSum.java)|Array
 |1018|[Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/BinaryPrefixDivisibleBy5.java)|Math
 |1022|[Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/SumofRootToLeafBinaryNumbers.java)|Binary Tree, Recursion, Depth-first Search, Preorder Traversal
+|1029|[Two City Scheduling](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/TwoCityScheduling.java)|Array, Dynamic programming
+|1030|[Matrix Cells in Distance Order](https://leetcode.com/problems/matrix-cells-in-distance-order/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MatrixCellsinDistanceOrder.java)|Array, Dynamic programming
 
 
 ## Medium
