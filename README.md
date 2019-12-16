@@ -222,8 +222,8 @@ The solutions are derived from my own thinking and the discussion.
 |977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/SquaresofaSortedArray.java)|Array, Two Pointers, Dynamic programming
 |985|[Sum of Even Numbers After Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/SumofEvenNumbersAfterQueries.java)|Array
 |989|[Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/AddtoArray-FormofInteger.java)|ArrayList
-|993|[Cousins in Binary Tree](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/CousinsinBinaryTree.java)|Array
-|994|[Rotting Oranges](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/RottingOranges.java)|Breadth-first Search, Array, Queue, HashMap
+|993|[Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/CousinsinBinaryTree.java)|Array
+|994|[Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/RottingOranges.java)|Breadth-first Search, Array, Queue, HashMap
 |1002|[Find Common Characters](https://leetcode.com/problems/find-common-characters/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FindCommonCharacters.java)|String, char[], Array
 |1005|[Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MaximizeSumOfArrayAfterKNegations.java)|Array
 |1009|[Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ComplementofBase10Integer.java)|Math, Division Algorithm, Bit Manipulation
@@ -231,8 +231,11 @@ The solutions are derived from my own thinking and the discussion.
 |1013|[Partition Array Into Three Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/PartitionArrayIntoThreePartsWithEqualSum.java)|Array
 |1018|[Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/BinaryPrefixDivisibleBy5.java)|Math
 |1022|[Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/SumofRootToLeafBinaryNumbers.java)|Binary Tree, Recursion, Depth-first Search, Preorder Traversal
-|1029|[Two City Scheduling](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/TwoCityScheduling.java)|Array, Dynamic programming
+|1029|[Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/TwoCityScheduling.java)|Array, Dynamic programming
 |1030|[Matrix Cells in Distance Order](https://leetcode.com/problems/matrix-cells-in-distance-order/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MatrixCellsinDistanceOrder.java)|Array, Dynamic programming
+|1046|[Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/LastStoneWeight.java)|Array
+|1047|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/RemoveAllAdjacentDuplicatesInString.java)|String, char[], Array, Two Pointers, Dynamic programming
+|1071|[Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/GreatestCommonDivisorofStrings.java)|String, char[], Array, Greatest common divisor
 
 
 ## Medium
