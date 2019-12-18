@@ -236,6 +236,8 @@ The solutions are derived from my own thinking and the discussion.
 |1046|[Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/LastStoneWeight.java)|Array
 |1047|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/RemoveAllAdjacentDuplicatesInString.java)|String, char[], Array, Two Pointers, Dynamic programming
 |1071|[Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/GreatestCommonDivisorofStrings.java)|String, char[], Array, Greatest common divisor
+|1089|[Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/DuplicateZeros.java)|Array, Two Pointers, Dynamic programming
+|1103|[Distribute Candies to People](https://leetcode.com/problems/distribute-candies-to-people/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/DistributeCandiestoPeople.java)|String, char[], Array, Greatest common divisor
 
 
 ## Medium
