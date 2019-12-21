@@ -238,7 +238,12 @@ The solutions are derived from my own thinking and the discussion.
 |1071|[Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/GreatestCommonDivisorofStrings.java)|String, char[], Array, Greatest common divisor
 |1089|[Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/DuplicateZeros.java)|Array, Two Pointers, Dynamic programming
 |1103|[Distribute Candies to People](https://leetcode.com/problems/distribute-candies-to-people/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/DistributeCandiestoPeople.java)|Array, Math
-
+|1114|[Print in Order](https://leetcode.com/problems/print-in-order/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/PrintinOrder.java)|Class, Multithreading, CountDownLatch, volatile
+|1122|[Relative Sort Array](https://leetcode.com/problems/relative-sort-array/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/RelativeSortArray.java)|Array, Two Pointers, Dynamic programming
+|1128|[Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/NumberofEquivalentDominoPairs.java)|Array
+|1137|[N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/N-thTribonacciNumber.java)|Array
+|1160|[Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FindWordsThatCanBeFormedbyCharacters.java)|Array
+|1184|[Distance Between Bus Stops](https://leetcode.com/problems/distance-between-bus-stops/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/DistanceBetweenBusStops.java)|Array, Dynamic programming
 
 ## Medium
 | # | Title |  Solution&emsp;  | Tag |
