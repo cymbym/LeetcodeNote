@@ -244,6 +244,8 @@ The solutions are derived from my own thinking and the discussion.
 |1137|[N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/N-thTribonacciNumber.java)|Array
 |1160|[Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FindWordsThatCanBeFormedbyCharacters.java)|Array
 |1184|[Distance Between Bus Stops](https://leetcode.com/problems/distance-between-bus-stops/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/DistanceBetweenBusStops.java)|Array, Dynamic programming
+|1189|[Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MaximumNumberofBalloons.java)|String, char[], Array
+|1200|[Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MinimumAbsoluteDifference.java)|Array, Bubble Sort
 
 ## Medium
 | # | Title |  Solution&emsp;  | Tag |
