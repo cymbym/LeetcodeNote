@@ -248,6 +248,10 @@ The solutions are derived from my own thinking and the discussion.
 |1200|[Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MinimumAbsoluteDifference.java)|Array, Bubble Sort
 |1207|[Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/UniqueNumberofOccurrences.java)|Array
 |1221|[Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/SplitaStringinBalancedStrings.java)|String, char[], Array
+|1232|[Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/CheckIfItIsaStraightLine.java)|Array
+|1266|[Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MinimumTimeVisitingAllPoints.java)|Array
+|1287|[Element Appearing More Than 25% In Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ElementAppearingMoreThan25%InSortedArray.java)|Array
+|1290|[Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ConvertBinaryNumberinaLinkedListtoInteger.java)|Array
 
 ## Medium
 | # | Title |  Solution&emsp;  | Tag |
