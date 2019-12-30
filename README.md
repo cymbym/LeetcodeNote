@@ -252,6 +252,9 @@ The solutions are derived from my own thinking and the discussion.
 |1266|[Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/MinimumTimeVisitingAllPoints.java)|Array
 |1287|[Element Appearing More Than 25% In Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ElementAppearingMoreThan25%InSortedArray.java)|Array
 |1290|[Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ConvertBinaryNumberinaLinkedListtoInteger.java)|Array
+|1295|[Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FindNumberswithEvenNumberofDigits.java)|Math
+|1299|[Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ReplaceElementswithGreatestElementonRightSide.java)|Array
+|1304|[Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FindNUniqueIntegersSumuptoZero.java)|Array
 
 ## Medium
 | # | Title |  Solution&emsp;  | Tag |
