@@ -254,7 +254,7 @@ The solutions are derived from my own thinking and the discussion.
 |1290|[Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ConvertBinaryNumberinaLinkedListtoInteger.java)|Array
 |1295|[Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FindNumberswithEvenNumberofDigits.java)|Math
 |1299|[Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/ReplaceElementswithGreatestElementonRightSide.java)|Array
-|1304|[Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FindNUniqueIntegersSumuptoZero.java)|Array
+|1304|[Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/)|[Java](https://github.com/cymbym/LeetcodeNote/blob/master/java/FindNUniqueIntegersSumuptoZero.java)|Array
 
 ## Medium
 | # | Title |  Solution&emsp;  | Tag |
