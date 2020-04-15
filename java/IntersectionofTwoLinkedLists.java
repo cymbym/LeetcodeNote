@@ -121,26 +121,3 @@ public class Solution {
         return tempA;
     }
 }
-    public boolean isBalanced(TreeNode root) {
-        int depth_val[] = depth(root);
-        if(depth_val[1] == 1){
-            return false;
-        }else{
-            return true;
-        }
-    }
-    public int[] depth(TreeNode root) {
-        int[] depth_val = {0, 0};
-        if(root == null){
-            return depth_val;
-        }else{
-            int[] depth_left = depth(root.left);
-            int[] depth_right = depth(root.right);
-            depth_val[0] = Math.max(depth_left[0], depth_right[0]) + 1;
-            if(Math.abs(depth_left[0]-depth_right[0])>1 || depth_left[1]==1 || depth_right[1]==1){
-                depth_val[1] = 1;  
-            }
-            return depth_val;			
-        }
-    }
-}
