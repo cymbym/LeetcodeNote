@@ -14,7 +14,7 @@ Output: [1,2]
 Explanation: The sum of 2 and 7 is 9. Therefore index1 = 1, index2 = 2.
 
 1.一开始和two sum一样用的hash表，但此处的numbers是有序的，因此时间复杂度比别人高。
-2.采样双指针的方法，分别指向首位，取其和，随后往中间遍历。
+2.采样双指针的方法，分别指向首尾，取其和，随后往中间遍历。
 
 */
 
